@@ -13,7 +13,7 @@ class RM_Utilities {
         
     }
 
-    public function __wakeup() {
+    private function __wakeup() {
         
     }
 

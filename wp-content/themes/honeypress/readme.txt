@@ -2,8 +2,8 @@
 
 Contributors: spicethemes
 Requires at least: 4.5
-Tested up to: 5.5
-Stable tag: 1.3.8
+Tested up to: 5.6
+Stable tag: 1.3.9
 Requires PHP: 5.4
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -28,6 +28,11 @@ Honeypress WordPress Theme, Copyright (C) 2019, SpiceThemes
 Honeypress is distributed under the terms of the GNU GPL
 
 == Changelog ==
+
+@Version 1.3.9
+* Escaped the pingback_url().
+* Fixed empty markup issue and added 'e-commerce' tag in style.css.
+* Footer Credit not editable in the free version.
 
 @Version 1.3.8
 * Fixed Keyboard navigation issue.

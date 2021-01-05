@@ -4478,6 +4478,7 @@ div[class^="rm-grid-sidebar"] a.rm_deactivated {
 
 .rmagic form#rm_submission_manager_form table {
     margin-bottom: 140px;
+    float: left;
 }
 
 

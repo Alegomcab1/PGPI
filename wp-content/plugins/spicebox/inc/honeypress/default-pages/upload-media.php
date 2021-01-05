@@ -18,6 +18,10 @@ if ($theme->name == 'HoneyWaves') {
     $images = array(
         $ImagePath . '/tromas-logo.png',
     );
+} elseif ($theme->name == 'HoneyBee') {
+    $images = array(
+        $ImagePath . '/honeybee-logo.png',
+    );
 } else {
     $images = array(
         $ImagePath . '/logo.png',

@@ -89,7 +89,6 @@ require ( HONEYPRESS_THEME_DIR . '/inc/customizer/customizer.php' );
 require ( HONEYPRESS_THEME_DIR . '/inc/customizer/customizer_theme_style.php' );
 require ( HONEYPRESS_THEME_DIR . '/inc/customizer/blog-page-options.php' );
 require ( HONEYPRESS_THEME_DIR . '/inc/customizer/single-blog-options.php' );
-require ( HONEYPRESS_THEME_DIR . '/inc/customizer/footer-options.php' );
 require ( HONEYPRESS_THEME_DIR . '/inc/customizer/customizer-pro-feature.php' );
 require ( HONEYPRESS_THEME_DIR . '/inc/customizer/customizer-recommended-plugin.php');
 require_once HONEYPRESS_THEME_DIR . '/inc/class-tgm-plugin-activation.php';
@@ -160,3 +159,32 @@ function honeypress_register_required_plugins() {
 
 	tgmpa( $plugins, $config );
 }
+
+//Set for old user before 1.3.8
+if (!get_option('honeypress_user_before_1_3_8', false)) {
+    //detect old user and set value
+    $honeypress_service_title=get_theme_mod('home_service_section_title');
+    $honeypress_service_discription=get_theme_mod('home_service_section_discription');
+    $honeypress_blog_title=get_theme_mod('home_news_section_title');
+    $honeypress_blog_discription=get_theme_mod('home_news_section_discription');
+    $honeypress_slider_title=get_theme_mod('home_slider_title');
+    $honeypress_slider_discription=get_theme_mod('home_slider_discription'); 
+    $honeypress_testimonial_title=get_theme_mod('home_testimonial_section_title'); 
+    $honeypress_testimonial__discription=get_theme_mod('home_testimonial_section_discription');
+    $honeypress_footer_credit=get_theme_mod('footer_copyright');
+
+    if ($honeypress_service_title !=null || $honeypress_service_discription !=null || $honeypress_blog_title !=null || $honeypress_blog_discription !=null || $honeypress_slider_title !=null || $honeypress_slider_discription !=null || $honeypress_testimonial_title !=null || $honeypress_testimonial__discription !=null || $honeypress_footer_credit !=null )  {
+        add_option('honeypress_user_before_1_3_8', 'old');
+
+    } else {
+        add_option('honeypress_user_before_1_3_8', 'new');
+    }
+}
+
+//Remove Footer section
+function honeypress_remove_customize_register( $wp_customize ) {
+
+   $wp_customize->remove_section( 'footer_section');
+
+}
+add_action( 'customize_register', 'honeypress_remove_customize_register',11);

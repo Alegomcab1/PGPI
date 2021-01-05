@@ -41,7 +41,7 @@ class RM_Table_Tech
         self::$table_name_for['LOGIN_LOG'] = $prefix . 'login_log';
     }
 
-    public function __wakeup()
+    private function __wakeup()
     {
         
     }

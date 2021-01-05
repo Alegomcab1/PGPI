@@ -54,6 +54,12 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 			'default' => 'rgba(0, 0, 0, 0.9)',
 	    ) );	
     }
+    elseif( $theme->name=='HoneyBee'){
+		$wp_customize->add_setting( 'testimonial_overlay_section_color', array(
+			'sanitize_callback' => 'sanitize_text_field',
+			'default' => 'rgba(248, 145, 8, 0.9)',
+	    ) );	
+    }
     else{
 		$wp_customize->add_setting( 'testimonial_overlay_section_color', array(
 			'sanitize_callback' => 'sanitize_text_field',
@@ -94,9 +100,23 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 	));
 		
 	//testimonial one image
-	$wp_customize->add_setting( 'home_testimonial_thumb',array('default' => SPICEB_PLUGIN_URL .'inc/honeypress/images/testimonial/testi1.jpg',
-	'sanitize_callback' => 'esc_url_raw', 'transport'         => $selective_refresh,));
- 
+	$theme = wp_get_theme();
+    if ($theme->name == 'HoneyBee') {
+        $wp_customize->add_setting( 'home_testimonial_thumb',
+    		array(
+    			'default' => SPICEB_PLUGIN_URL .'inc/honeypress/images/testimonial/user1.jpg',
+				'sanitize_callback' => 'esc_url_raw',
+				'transport'         => $selective_refresh,
+			));
+    } else{
+    	$wp_customize->add_setting( 'home_testimonial_thumb',
+    		array(
+    			'default' => SPICEB_PLUGIN_URL .'inc/honeypress/images/testimonial/testi1.jpg',
+				'sanitize_callback' => 'esc_url_raw',
+				'transport'         => $selective_refresh,
+			));
+	}
+	
 	$wp_customize->add_control(
 		new WP_Customize_Image_Control(
 			$wp_customize,

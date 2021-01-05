@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 "Project-Id-Version: HoneyBee\n"
-"POT-Creation-Date: 2020-12-08 19:36+0530\n"
+"POT-Creation-Date: 2020-12-22 18:00+0530\n"
 "PO-Revision-Date: 2020-10-26 11:22+0530\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -265,76 +265,88 @@ msgstr ""
 msgid "Show user feedback on the Homepage."
 msgstr ""
 
-#: admin/tab-pages/free_vs_pro.php:57
+#: admin/tab-pages/free_vs_pro.php:56
+msgid "Footer Credit"
+msgstr ""
+
+#: admin/tab-pages/free_vs_pro.php:59
 msgid "Typography Settings"
 msgstr ""
 
-#: admin/tab-pages/free_vs_pro.php:58
+#: admin/tab-pages/free_vs_pro.php:60
 msgid "You can customize the style without adding any code."
 msgstr ""
 
-#: admin/tab-pages/free_vs_pro.php:62
+#: admin/tab-pages/free_vs_pro.php:64
 msgid "WPML Support"
 msgstr ""
 
-#: admin/tab-pages/free_vs_pro.php:63
+#: admin/tab-pages/free_vs_pro.php:65
 msgid "You can use WPML to make your website multilingual."
 msgstr ""
 
-#: admin/tab-pages/free_vs_pro.php:66
+#: admin/tab-pages/free_vs_pro.php:68
 msgid "Support Forum"
 msgstr ""
 
-#: admin/tab-pages/free_vs_pro.php:67
+#: admin/tab-pages/free_vs_pro.php:69
 msgid "Get instant 24/7 support on our Support Forum."
 msgstr ""
 
-#: admin/tab-pages/free_vs_pro.php:81
+#: admin/tab-pages/free_vs_pro.php:83
 msgid "Free"
 msgstr ""
 
-#: admin/tab-pages/free_vs_pro.php:87
+#: admin/tab-pages/free_vs_pro.php:89
 msgid ""
 "Slider [Static Image], Services [3 Services], Testimonial, Latest News"
 msgstr ""
 
-#: admin/tab-pages/free_vs_pro.php:92
+#: admin/tab-pages/free_vs_pro.php:94
 msgid "Business Template and Full-Width Template"
 msgstr ""
 
-#: admin/tab-pages/free_vs_pro.php:93
+#: admin/tab-pages/free_vs_pro.php:95
 msgid "Wide Layout"
 msgstr ""
 
-#: admin/tab-pages/free_vs_pro.php:105
+#: admin/tab-pages/free_vs_pro.php:104
+msgid "Not Editable"
+msgstr ""
+
+#: admin/tab-pages/free_vs_pro.php:108
 msgid "On WordPress.org Support Forum"
 msgstr ""
 
-#: admin/tab-pages/free_vs_pro.php:117
+#: admin/tab-pages/free_vs_pro.php:120
 msgid "Pro"
 msgstr ""
 
-#: admin/tab-pages/free_vs_pro.php:122
+#: admin/tab-pages/free_vs_pro.php:125
 msgid ""
 "Top Header, Slider [Unlimited], Services [Unlimited], Portfolio "
 "[Unlimited], Latest News, Clients, Testimonials, Custom Widgets"
 msgstr ""
 
-#: admin/tab-pages/free_vs_pro.php:124
+#: admin/tab-pages/free_vs_pro.php:127
 msgid ""
 "About, Services, Portfolio, Blog Left & Right Sidebars, Blog Full Width, "
 "Page Full Width, Contact Page and much more."
 msgstr ""
 
-#: admin/tab-pages/free_vs_pro.php:125
+#: admin/tab-pages/free_vs_pro.php:128
 msgid "Wide layout & Boxed Layout"
 msgstr ""
 
 #: admin/tab-pages/free_vs_pro.php:137
+msgid "Editable"
+msgstr ""
+
+#: admin/tab-pages/free_vs_pro.php:141
 msgid "Premium Support Forum"
 msgstr ""
 
-#: admin/tab-pages/free_vs_pro.php:147
+#: admin/tab-pages/free_vs_pro.php:151
 msgid "Get PRO Version Now!"
 msgstr ""
 
@@ -417,11 +429,40 @@ msgid ""
 "implemented."
 msgstr ""
 
-#: functions.php:132 inc/customizer/footer-options.php:34
+#: functions.php:154
 msgid ""
 "Proudly powered by <a href=\"https://wordpress.org\"> WordPress</a> | "
 "Theme: <a href=\"https://spicethemes.com\" rel=\"nofollow\">HoneyBee</a> "
 "by SpiceThemes"
+msgstr ""
+
+#: functions.php:159
+msgid "Proudly powered by"
+msgstr ""
+
+#: functions.php:159
+msgid "https://wordpress.org"
+msgstr ""
+
+#: functions.php:159
+msgid "WordPress"
+msgstr ""
+
+#: functions.php:159
+msgid "| Theme:"
+msgstr ""
+
+#: functions.php:159
+msgid "https://spicethemes.com"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+#: functions.php:159
+msgid "HoneyBee"
+msgstr ""
+
+#: functions.php:159
+msgid "by SpiceThemes"
 msgstr ""
 
 #: functions/widgets/sidebars.php:8
@@ -566,22 +607,6 @@ msgstr ""
 msgid "Skin color"
 msgstr ""
 
-#: inc/customizer/footer-options.php:6
-msgid "Footer Settings"
-msgstr ""
-
-#: inc/customizer/footer-options.php:7
-msgid "Footer Settings:"
-msgstr ""
-
-#: inc/customizer/footer-options.php:24
-msgid "Hide/Show Footer"
-msgstr ""
-
-#: inc/customizer/footer-options.php:42
-msgid "Copyright Content"
-msgstr ""
-
 #: inc/header/header-nav.php:14
 msgid "Toggle navigation"
 msgstr ""
@@ -608,10 +633,6 @@ msgstr ""
 
 #: index-news.php:87 index-news.php:131
 msgid "Read more"
-msgstr ""
-
-#. Theme Name of the plugin/theme
-msgid "HoneyBee"
 msgstr ""
 
 #. Theme URI of the plugin/theme

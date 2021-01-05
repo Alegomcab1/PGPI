@@ -341,6 +341,13 @@ jQuery(document).ready(function () {
         return false;
     });
 
+    theme_conrols.on('click', '.customizer-repeater-checkbox', function (event) {
+          if (this.checked) {
+              this.setAttribute("checked", "checked");
+          } else {
+              this.removeAttribute("checked");
+          }
+    });
 
     theme_conrols.on('keyup', '.customizer-repeater-title-control', function () {
         customizer_repeater_refresh_general_control_values();

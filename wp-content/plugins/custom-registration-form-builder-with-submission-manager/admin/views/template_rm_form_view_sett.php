@@ -100,7 +100,7 @@ wp_enqueue_script('rm-form_presentation');
     <div class="buttonarea popup-button-group" style="">
         <div class="cancel">
             <?php if(isset($_GET['rdrto']) && $_GET['rdrto']): ?>
-                <a value="&amp;#8592; &amp;nbsp; Cancel" href="?page=<?php echo $_GET['rdrto']; ?>&amp;rm_form_id=<?php echo $data->model->form_id; ?>" id="form_sett_post_sub-element-18">← &nbsp; <?php _e('Cancel', 'custom-registration-form-builder-with-submission-manager') ?></a>
+                <a value="&amp;#8592; &amp;nbsp; Cancel" href="?page=<?php echo esc_url($_GET['rdrto']); ?>&amp;rm_form_id=<?php echo $data->model->form_id; ?>" id="form_sett_post_sub-element-18">← &nbsp; <?php _e('Cancel', 'custom-registration-form-builder-with-submission-manager') ?></a>
             <?php else: ?>
                 <a value="&amp;#8592; &amp;nbsp; Cancel" href="?page=rm_form_sett_manage&amp;rm_form_id=<?php echo $data->model->form_id; ?>" id="form_sett_post_sub-element-18">← &nbsp; <?php _e('Cancel', 'custom-registration-form-builder-with-submission-manager') ?></a>
             <?php endif; ?>

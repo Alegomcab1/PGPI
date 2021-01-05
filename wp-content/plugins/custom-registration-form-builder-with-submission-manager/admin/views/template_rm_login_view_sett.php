@@ -92,7 +92,7 @@ $submit_btn_label = !empty($buttons['login_btn']) ? $buttons['login_btn'] : 'Log
     <div class="buttonarea popup-button-group" style="">
         <div class="cancel">
             <?php if(isset($_GET['rdrto']) && $_GET['rdrto']): ?>
-            <a value="&amp;#8592; &amp;nbsp; Cancel" href="?page=<?php echo $_GET['rdrto'] ?>" id="form_sett_post_sub-element-18">← &nbsp; <?php _e("Cancel", 'custom-registration-form-builder-with-submission-manager') ?></a>
+            <a value="&amp;#8592; &amp;nbsp; Cancel" href="?page=<?php echo esc_url($_GET['rdrto']); ?>" id="form_sett_post_sub-element-18">← &nbsp; <?php _e("Cancel", 'custom-registration-form-builder-with-submission-manager') ?></a>
             <?php else: ?>
             <a value="&amp;#8592; &amp;nbsp; Cancel" href="?page=rm_login_sett_manage" id="form_sett_post_sub-element-18">← &nbsp; <?php _e("Cancel", 'custom-registration-form-builder-with-submission-manager') ?></a>
             <?php endif; ?>

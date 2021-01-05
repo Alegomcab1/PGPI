@@ -3,8 +3,8 @@ Contributors: registrationmagic, metagauss
 Donate link: http://registrationmagic.com/
 Tags: User Registration, Registration, WooCommerce Registration Form, Online Registration, event registration
 Requires at least: 3.5
-Tested up to: 5.5
-Stable tag: 4.6.2.5
+Tested up to: 5.6
+Stable tag: 4.6.2.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -411,6 +411,10 @@ Note, this functionality is limited to Premium version of RegistrationMagic.
 19. Global Settings.
 
 == Changelog ==
+
+= 4.6.2.6 =
+* Added additional filtration of input on view files
+* Minor design issue fixes
 
 = 4.6.2.5 =
 * Fixed issue with form field custom class with field conditions applied
@@ -1765,6 +1769,10 @@ Fixed: Blocks showing up on front-end with some WP themes.
 * Added Custom Fields
 
 == Upgrade Notice ==
+
+= 4.6.2.6 =
+* Added additional filtration of input on view files
+* Minor design issue fixes
 
 = 4.6.2.5 =
 * Fixed issue with form field custom class with field conditions applied
