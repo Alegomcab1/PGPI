@@ -1,5 +1,8 @@
 == Changelog ==
 
+@Version 1.0.2
+* Updated the Pro demo and detail page links on the About HoneyBee options page.
+
 @Version 1.0.1
 * Footer Credit not editable in free version.
 

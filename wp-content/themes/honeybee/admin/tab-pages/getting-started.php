@@ -52,7 +52,7 @@
 					<p class="info-text"><?php echo esc_html__('Lite Demo','honeybee'); ?></p></a>
 					
 					
-					<a href="<?php echo esc_url('https://demo.spicethemes.com/?theme=HoneyPress%20Pro'); ?>" target="_blank"  class="info-block"><div class="dashicons dashicons-book-alt info-icon"></div>
+					<a href="<?php echo esc_url('https://demo.spicethemes.com/?theme=HoneyBee%20Pro'); ?>" target="_blank"  class="info-block"><div class="dashicons dashicons-desktop info-icon"></div>
 					<p class="info-text"><?php echo esc_html__('PRO Demo','honeybee'); ?></p></a>
 					
 					
@@ -76,8 +76,19 @@
 				
 				<div class="honeybee-tab-pane-half honeybee-tab-pane-first-half">
 					
-					<a href="<?php echo esc_url('https://spicethemes.com/honeypress-pro/'); ?>" target="_blank"  class="info-block"><div class="dashicons dashicons-book-alt info-icon"></div>
+					<a href="<?php echo esc_url('https://spicethemes.com/honeybee-pro/'); ?>" target="_blank"  class="info-block"><div class="dashicons dashicons-book-alt info-icon"></div>
 					<p class="info-text"><?php echo esc_html__('Premium Theme Details','honeybee'); ?></p></a>
+					
+				</div>
+				
+			</div>
+
+			<div class="col-md-6">	
+				
+				<div class="honeybee-tab-pane-half honeybee-tab-pane-first-half">
+					
+					<a href="<?php echo esc_url('https://helpdoc.spicethemes.com/category/honeypress-pro/'); ?>" target="_blank"  class="info-block"><div class="dashicons dashicons-editor-help info-icon"></div>
+					<p class="info-text"><?php echo esc_html__('Premium Theme Help Docs','honeybee'); ?></p></a>
 					
 				</div>
 				

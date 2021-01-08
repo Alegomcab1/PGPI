@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - WooCommerce - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-12-08 17:53:41+0000\n"
+"PO-Revision-Date: 2021-01-06 18:36:53+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -10,6 +10,128 @@ msgstr ""
 "X-Generator: GlotPress/3.0.0-alpha.2\n"
 "Language: en_GB\n"
 "Project-Id-Version: Plugins - WooCommerce - Stable (latest release)\n"
+
+#: i18n/states.php:769
+msgid "Saint Catherine"
+msgstr "Saint Catherine"
+
+#: i18n/states.php:768
+msgid "Clarendon"
+msgstr "Clarendon"
+
+#: i18n/states.php:767
+msgid "Manchester"
+msgstr "Manchester"
+
+#: i18n/states.php:766
+msgid "Saint Elizabeth"
+msgstr "Saint Elizabeth"
+
+#: i18n/states.php:765
+msgid "Westmoreland"
+msgstr "Westmoreland"
+
+#: i18n/states.php:764
+msgid "Hanover"
+msgstr "Hanover"
+
+#: i18n/states.php:763
+msgid "Saint James"
+msgstr "Saint James"
+
+#: i18n/states.php:762
+msgid "Trelawny"
+msgstr "Trelawny"
+
+#: i18n/states.php:761
+msgid "Saint Ann"
+msgstr "Saint Ann"
+
+#: i18n/states.php:760
+msgid "Saint Mary"
+msgstr "Saint Mary"
+
+#: i18n/states.php:759
+msgid "Portland"
+msgstr "Portland"
+
+#: i18n/states.php:758
+msgid "Saint Thomas"
+msgstr "Saint Thomas"
+
+#: i18n/states.php:757
+msgid "Saint Andrew"
+msgstr "Saint Andrew"
+
+#: i18n/states.php:756
+msgid "Kingston"
+msgstr "Kingston"
+
+#. translators: 1: opening link tag, 2: closing tag
+#: packages/woocommerce-admin/src/Features/Analytics.php:101
+msgid "This tool will reset the cached values used in WooCommerce Analytics. If numbers still look off, try %1$sReimporting Historical Data%2$s."
+msgstr "This tool will reset the cached values used in WooCommerce Analytics. If numbers still look off, try %1$sReimporting Historical Data%2$s."
+
+#: packages/woocommerce-admin/src/Features/Navigation/Menu.php:178
+msgid "WooCommerce Home"
+msgstr "WooCommerce Home"
+
+#: packages/woocommerce-admin/src/Features/CustomerEffortScoreTracks.php:187
+msgid "How easy was it to edit your product?"
+msgstr "How easy was it to edit your product?"
+
+#: packages/woocommerce-admin/src/Features/CustomerEffortScoreTracks.php:163
+msgid "How easy was it to add a product?"
+msgstr "How easy was it to add a product?"
+
+#: packages/woocommerce-admin/src/Notes/NavigationFeedbackFollowUp.php:53
+msgid "Share your thoughts on the new WooCommerce navigation"
+msgstr "Share your thoughts on the new WooCommerce navigation"
+
+#: packages/woocommerce-admin/src/Notes/NavigationFeedbackFollowUp.php:50
+msgid "We recently introduced the new navigation for a more intuitive and improved user experience. Now that you've had some time to give it a try, let us know how this will impact your store."
+msgstr "We recently introduced the new navigation for a more intuitive and improved user experience. Now that you've had some time to give it a try, let us know how this will impact your store."
+
+#: packages/woocommerce-admin/src/Notes/NavigationFeedback.php:39
+msgid "You now have access to the new WooCommerce navigation"
+msgstr "You now have access to the new WooCommerce navigation"
+
+#: packages/woocommerce-admin/src/Notes/NavigationFeedback.php:36
+msgid "We're introducing the new navigation for a more intuitive and improved user experience. We'd like to hear your thoughts and first impressions."
+msgstr "We're introducing the new navigation for a more intuitive and improved user experience. We'd like to hear your thoughts and first impressions."
+
+#: packages/woocommerce-admin/src/Notes/ManageOrdersOnTheGo.php:49
+msgid "Look for orders, customer info, and process refunds in one click with the Woo app."
+msgstr "Look for orders, customer info, and process refunds in one click with the Woo app."
+
+#: packages/woocommerce-admin/src/Notes/ManageOrdersOnTheGo.php:48
+msgid "Manage your orders on the go"
+msgstr "Manage your orders on the go"
+
+#: packages/woocommerce-admin/src/Notes/ReviewShippingSettings.php:40
+msgid "Label printing: enabled"
+msgstr "Label printing: enabled"
+
+#: packages/woocommerce-admin/src/Notes/ReviewShippingSettings.php:36
+msgid "International orders: disabled<br/>"
+msgstr "International orders: disabled<br/>"
+
+#: packages/woocommerce-admin/src/Notes/ReviewShippingSettings.php:35
+msgid "Domestic orders: free shipping<br/>"
+msgstr "Domestic orders: free shipping<br/>"
+
+#: packages/woocommerce-admin/src/API/Reports/Controller.php:102
+msgid "Stats about variations."
+msgstr "Stats about variations."
+
+#: packages/woocommerce-admin/src/API/Reports/Controller.php:98
+msgid "Variations detailed reports."
+msgstr "Variations detailed reports."
+
+#: packages/woocommerce-admin/src/API/Reports/Orders/Stats/Controller.php:450
+#: packages/woocommerce-admin/src/API/Reports/Orders/Controller.php:338
+msgid "Limit result set to items that don't have the specified variation(s) assigned."
+msgstr "Limit result set to items that don't have the specified variation(s) assigned."
 
 #. translators: 1: tax amount 2: country name
 #: includes/wc-cart-functions.php:322

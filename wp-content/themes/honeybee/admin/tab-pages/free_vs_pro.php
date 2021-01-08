@@ -92,7 +92,7 @@
                         </li>
                         <li style="font-size:16px; line-height:25px; padding:28px"> 
                             <?php esc_html_e("Business Template and Full-Width Template", "honeybee"); ?>
-                        </li><li style="font-size:16px; line-height:25px; padding:43px"><?php esc_html_e("Wide Layout", "honeybee"); ?> </li>
+                        </li><li style="font-size:16px; line-height:25px; padding:43px"><?php esc_html_e("Boxed Layout", "honeybee"); ?> </li>
                         <li><span class="dashicons-before dashicons-yes green"></span></li>
                         <li><span class="dashicons-before dashicons-yes green"></span></li>
                         <li><span class="dashicons-before dashicons-yes green"></span></li>
@@ -148,7 +148,7 @@
             <div class="offer-content clearfix">
                 <div class="media pricing-content text-center padding10">
                     <div class="media-body">
-                        <a href="<?php echo esc_url('https://spicethemes.com/honeypress-pro/'); ?>" target="_blank" class="btn btn-info btn-lg"><?php esc_html_e('Get PRO Version Now!', 'honeybee'); ?></a>
+                        <a href="<?php echo esc_url('https://spicethemes.com/honeybee-pro/'); ?>" target="_blank" class="btn btn-info btn-lg"><?php esc_html_e('Get PRO Version Now!', 'honeybee'); ?></a>
                     </div>
                 </div>
             </div>

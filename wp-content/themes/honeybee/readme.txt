@@ -3,7 +3,7 @@
 Contributors: spicethemes
 Requires at least: 4.5
 Tested up to: 5.6
-Stable tag: 1.0.1
+Stable tag: 1.0.2
 Requires PHP: 5.4
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -33,6 +33,9 @@ HoneyBee WordPress Theme is a child theme of HoneyPress Theme, Copyright (C) 202
 HoneyBee WordPress Theme is distributed under the terms of the GNU GPL
 
 == Changelog ==
+
+@Version 1.0.2
+* Updated the Pro demo and detail page links on the About HoneyBee options page.
 
 @Version 1.0.1
 * Footer Credit not editable in free version.
