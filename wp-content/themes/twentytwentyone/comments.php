@@ -9,7 +9,11 @@
  *
  * @package WordPress
  * @subpackage Twenty_Twenty_One
+<<<<<<< HEAD
  * @since Twenty Twenty-One 1.0
+=======
+ * @since 1.0.0
+>>>>>>> d2abd2740ea4aab8917df17b6b75b072dcae6a69
  */
 
 /*
@@ -59,7 +63,12 @@ $twenty_twenty_one_comment_count = get_comments_number();
 		<?php
 		the_comments_pagination(
 			array(
+<<<<<<< HEAD
 				'before_page_number' => esc_html__( 'Page', 'twentytwentyone' ) . ' ',
+=======
+				/* translators: There is a space after page. */
+				'before_page_number' => esc_html__( 'Page ', 'twentytwentyone' ),
+>>>>>>> d2abd2740ea4aab8917df17b6b75b072dcae6a69
 				'mid_size'           => 0,
 				'prev_text'          => sprintf(
 					'%s <span class="nav-prev-text">%s</span>',

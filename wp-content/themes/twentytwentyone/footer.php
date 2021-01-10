@@ -8,7 +8,11 @@
  *
  * @package WordPress
  * @subpackage Twenty_Twenty_One
+<<<<<<< HEAD
  * @since Twenty Twenty-One 1.0
+=======
+ * @since 1.0.0
+>>>>>>> d2abd2740ea4aab8917df17b6b75b072dcae6a69
  */
 
 ?>
@@ -58,7 +62,11 @@
 				printf(
 					/* translators: %s: WordPress. */
 					esc_html__( 'Proudly powered by %s.', 'twentytwentyone' ),
+<<<<<<< HEAD
 					'<a href="' . esc_url( __( 'https://wordpress.org/', 'twentytwentyone' ) ) . '">WordPress</a>'
+=======
+					'<a href="' . esc_attr__( 'https://wordpress.org/', 'twentytwentyone' ) . '">WordPress</a>'
+>>>>>>> d2abd2740ea4aab8917df17b6b75b072dcae6a69
 				);
 				?>
 			</div><!-- .powered-by -->

@@ -4,7 +4,11 @@
  *
  * @package WordPress
  * @subpackage Twenty_Twenty_One
+<<<<<<< HEAD
  * @since Twenty Twenty-One 1.0
+=======
+ * @since 1.0.0
+>>>>>>> d2abd2740ea4aab8917df17b6b75b072dcae6a69
  */
 
 /**
@@ -17,7 +21,11 @@ class Twenty_Twenty_One_Custom_Colors {
 	 *
 	 * @access public
 	 *
+<<<<<<< HEAD
 	 * @since Twenty Twenty-One 1.0
+=======
+	 * @since 1.0.0
+>>>>>>> d2abd2740ea4aab8917df17b6b75b072dcae6a69
 	 */
 	public function __construct() {
 
@@ -38,7 +46,11 @@ class Twenty_Twenty_One_Custom_Colors {
 	 *
 	 * @param string $background_color The background color.
 	 *
+<<<<<<< HEAD
 	 * @since Twenty Twenty-One 1.0
+=======
+	 * @since 1.0.0
+>>>>>>> d2abd2740ea4aab8917df17b6b75b072dcae6a69
 	 *
 	 * @return string (hex color)
 	 */
@@ -55,7 +67,11 @@ class Twenty_Twenty_One_Custom_Colors {
 	 *
 	 * @access public
 	 *
+<<<<<<< HEAD
 	 * @since Twenty Twenty-One 1.0
+=======
+	 * @since 1.0.0
+>>>>>>> d2abd2740ea4aab8917df17b6b75b072dcae6a69
 	 *
 	 * @param string|null $context Can be "editor" or null.
 	 *
@@ -74,8 +90,13 @@ class Twenty_Twenty_One_Custom_Colors {
 			$theme_css .= '--button--color-text-hover: ' . $this->custom_get_readable_color( $background_color ) . ';';
 
 			if ( '#fff' === $this->custom_get_readable_color( $background_color ) ) {
+<<<<<<< HEAD
 				$theme_css .= '--table--stripes-border-color: rgba(240, 240, 240, 0.15);';
 				$theme_css .= '--table--stripes-background-color: rgba(240, 240, 240, 0.15);';
+=======
+				$theme_css .= '--table--stripes-border-color: var(--global--color-dark-gray);';
+				$theme_css .= '--table--stripes-background-color: var(--global--color-dark-gray);';
+>>>>>>> d2abd2740ea4aab8917df17b6b75b072dcae6a69
 			}
 		}
 
@@ -89,7 +110,11 @@ class Twenty_Twenty_One_Custom_Colors {
 	 *
 	 * @access public
 	 *
+<<<<<<< HEAD
 	 * @since Twenty Twenty-One 1.0
+=======
+	 * @since 1.0.0
+>>>>>>> d2abd2740ea4aab8917df17b6b75b072dcae6a69
 	 *
 	 * @return void
 	 */
@@ -104,7 +129,11 @@ class Twenty_Twenty_One_Custom_Colors {
 	 *
 	 * @access public
 	 *
+<<<<<<< HEAD
 	 * @since Twenty Twenty-One 1.0
+=======
+	 * @since 1.0.0
+>>>>>>> d2abd2740ea4aab8917df17b6b75b072dcae6a69
 	 *
 	 * @return void
 	 */
@@ -129,7 +158,11 @@ class Twenty_Twenty_One_Custom_Colors {
 	 *
 	 * @access public
 	 *
+<<<<<<< HEAD
 	 * @since Twenty Twenty-One 1.0
+=======
+	 * @since 1.0.0
+>>>>>>> d2abd2740ea4aab8917df17b6b75b072dcae6a69
 	 *
 	 * @param string $hex The HEX color.
 	 *
@@ -160,7 +193,11 @@ class Twenty_Twenty_One_Custom_Colors {
 	 *
 	 * @access public
 	 *
+<<<<<<< HEAD
 	 * @since Twenty Twenty-One 1.0
+=======
+	 * @since 1.0.0
+>>>>>>> d2abd2740ea4aab8917df17b6b75b072dcae6a69
 	 *
 	 * @param array $classes The existing body classes.
 	 *

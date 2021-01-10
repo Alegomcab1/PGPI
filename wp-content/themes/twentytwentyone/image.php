@@ -4,7 +4,11 @@
  *
  * @package WordPress
  * @subpackage Twenty_Twenty_One
+<<<<<<< HEAD
  * @since Twenty Twenty-One 1.0
+=======
+ * @since 1.0.0
+>>>>>>> d2abd2740ea4aab8917df17b6b75b072dcae6a69
  */
 
 get_header();
@@ -99,7 +103,11 @@ while ( have_posts() ) {
 			}
 			?>
 		</footer><!-- .entry-footer -->
+<<<<<<< HEAD
 	</article><!-- #post-<?php the_ID(); ?> -->
+=======
+	</article><!-- #post-## -->
+>>>>>>> d2abd2740ea4aab8917df17b6b75b072dcae6a69
 	<?php
 	// If comments are open or there is at least one comment, load up the comment template.
 	if ( comments_open() || get_comments_number() ) {

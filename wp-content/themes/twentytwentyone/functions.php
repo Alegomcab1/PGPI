@@ -6,7 +6,11 @@
  *
  * @package WordPress
  * @subpackage Twenty_Twenty_One
+<<<<<<< HEAD
  * @since Twenty Twenty-One 1.0
+=======
+ * @since 1.0.0
+>>>>>>> d2abd2740ea4aab8917df17b6b75b072dcae6a69
  */
 
 // This theme requires WordPress 5.3 or later.
@@ -22,7 +26,11 @@ if ( ! function_exists( 'twenty_twenty_one_setup' ) ) {
 	 * runs before the init hook. The init hook is too late for some features, such
 	 * as indicating support for post thumbnails.
 	 *
+<<<<<<< HEAD
 	 * @since Twenty Twenty-One 1.0
+=======
+	 * @since 1.0.0
+>>>>>>> d2abd2740ea4aab8917df17b6b75b072dcae6a69
 	 *
 	 * @return void
 	 */
@@ -345,7 +353,11 @@ add_action( 'after_setup_theme', 'twenty_twenty_one_setup' );
 /**
  * Register widget area.
  *
+<<<<<<< HEAD
  * @since Twenty Twenty-One 1.0
+=======
+ * @since 1.0.0
+>>>>>>> d2abd2740ea4aab8917df17b6b75b072dcae6a69
  *
  * @link https://developer.wordpress.org/themes/functionality/sidebars/#registering-a-sidebar
  *
@@ -372,7 +384,11 @@ add_action( 'widgets_init', 'twenty_twenty_one_widgets_init' );
  *
  * Priority 0 to make it available to lower priority callbacks.
  *
+<<<<<<< HEAD
  * @since Twenty Twenty-One 1.0
+=======
+ * @since 1.0.0
+>>>>>>> d2abd2740ea4aab8917df17b6b75b072dcae6a69
  *
  * @global int $content_width Content width.
  *
@@ -389,14 +405,22 @@ add_action( 'after_setup_theme', 'twenty_twenty_one_content_width', 0 );
 /**
  * Enqueue scripts and styles.
  *
+<<<<<<< HEAD
  * @since Twenty Twenty-One 1.0
+=======
+ * @since 1.0.0
+>>>>>>> d2abd2740ea4aab8917df17b6b75b072dcae6a69
  *
  * @return void
  */
 function twenty_twenty_one_scripts() {
 	// Note, the is_IE global variable is defined by WordPress and is used
 	// to detect if the current browser is internet explorer.
+<<<<<<< HEAD
 	global $is_IE, $wp_scripts;
+=======
+	global $is_IE;
+>>>>>>> d2abd2740ea4aab8917df17b6b75b072dcae6a69
 	if ( $is_IE ) {
 		// If IE 11 or below, use a flattened stylesheet with static values replacing CSS Variables.
 		wp_enqueue_style( 'twenty-twenty-one-style', get_template_directory_uri() . '/assets/css/ie.css', array(), wp_get_theme()->get( 'Version' ) );
@@ -416,6 +440,7 @@ function twenty_twenty_one_scripts() {
 		wp_enqueue_script( 'comment-reply' );
 	}
 
+<<<<<<< HEAD
 	// Register the IE11 polyfill file.
 	wp_register_script(
 		'twenty-twenty-one-ie11-polyfills-asset',
@@ -429,10 +454,16 @@ function twenty_twenty_one_scripts() {
 	wp_register_script(
 		'twenty-twenty-one-ie11-polyfills',
 		null,
+=======
+	wp_register_script(
+		'twenty-twenty-one-ie11-polyfills',
+		get_template_directory_uri() . '/assets/js/polyfills.js',
+>>>>>>> d2abd2740ea4aab8917df17b6b75b072dcae6a69
 		array(),
 		wp_get_theme()->get( 'Version' ),
 		true
 	);
+<<<<<<< HEAD
 	wp_add_inline_script(
 		'twenty-twenty-one-ie11-polyfills',
 		wp_get_script_polyfill(
@@ -442,6 +473,8 @@ function twenty_twenty_one_scripts() {
 			)
 		)
 	);
+=======
+>>>>>>> d2abd2740ea4aab8917df17b6b75b072dcae6a69
 
 	// Main navigation scripts.
 	if ( has_nav_menu( 'primary' ) ) {
@@ -468,7 +501,11 @@ add_action( 'wp_enqueue_scripts', 'twenty_twenty_one_scripts' );
 /**
  * Enqueue block editor script.
  *
+<<<<<<< HEAD
  * @since Twenty Twenty-One 1.0
+=======
+ * @since 1.0.0
+>>>>>>> d2abd2740ea4aab8917df17b6b75b072dcae6a69
  *
  * @return void
  */
@@ -507,7 +544,11 @@ add_action( 'wp_print_footer_scripts', 'twenty_twenty_one_skip_link_focus_fix' )
 
 /** Enqueue non-latin language styles
  *
+<<<<<<< HEAD
  * @since Twenty Twenty-One 1.0
+=======
+ * @since 1.0.0
+>>>>>>> d2abd2740ea4aab8917df17b6b75b072dcae6a69
  *
  * @return void
  */
@@ -553,7 +594,11 @@ new Twenty_Twenty_One_Dark_Mode();
 /**
  * Enqueue scripts for the customizer preview.
  *
+<<<<<<< HEAD
  * @since Twenty Twenty-One 1.0
+=======
+ * @since 1.0.0
+>>>>>>> d2abd2740ea4aab8917df17b6b75b072dcae6a69
  *
  * @return void
  */
@@ -579,7 +624,11 @@ add_action( 'customize_preview_init', 'twentytwentyone_customize_preview_init' )
 /**
  * Enqueue scripts for the customizer.
  *
+<<<<<<< HEAD
  * @since Twenty Twenty-One 1.0
+=======
+ * @since 1.0.0
+>>>>>>> d2abd2740ea4aab8917df17b6b75b072dcae6a69
  *
  * @return void
  */
@@ -598,7 +647,11 @@ add_action( 'customize_controls_enqueue_scripts', 'twentytwentyone_customize_con
 /**
  * Calculate classes for the main <html> element.
  *
+<<<<<<< HEAD
  * @since Twenty Twenty-One 1.0
+=======
+ * @since 1.0.0
+>>>>>>> d2abd2740ea4aab8917df17b6b75b072dcae6a69
  *
  * @return void
  */
@@ -613,7 +666,11 @@ function twentytwentyone_the_html_classes() {
 /**
  * Add "is-IE" class to body if the user is on Internet Explorer.
  *
+<<<<<<< HEAD
  * @since Twenty Twenty-One 1.0
+=======
+ * @since 1.0.0
+>>>>>>> d2abd2740ea4aab8917df17b6b75b072dcae6a69
  *
  * @return void
  */

@@ -1,6 +1,10 @@
 {
   "name": "twentynineteen",
+<<<<<<< HEAD
   "version": "1.9.0",
+=======
+  "version": "1.8.0",
+>>>>>>> d2abd2740ea4aab8917df17b6b75b072dcae6a69
   "description": "Default WP Theme",
   "bugs": {
     "url": "https://github.com/WordPress/twentynineteen/issues"

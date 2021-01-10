@@ -4,7 +4,11 @@
  *
  * @package WordPress
  * @subpackage Twenty_Twenty_One
+<<<<<<< HEAD
  * @since Twenty Twenty-One 1.0
+=======
+ * @since 1.0.0
+>>>>>>> d2abd2740ea4aab8917df17b6b75b072dcae6a69
  */
 
 /**
@@ -17,7 +21,11 @@ class Twenty_Twenty_One_Dark_Mode {
 	 *
 	 * @access public
 	 *
+<<<<<<< HEAD
 	 * @since Twenty Twenty-One 1.0
+=======
+	 * @since 1.0.0
+>>>>>>> d2abd2740ea4aab8917df17b6b75b072dcae6a69
 	 */
 	public function __construct() {
 
@@ -51,7 +59,11 @@ class Twenty_Twenty_One_Dark_Mode {
 	 *
 	 * @access public
 	 *
+<<<<<<< HEAD
 	 * @since Twenty Twenty-One 1.0
+=======
+	 * @since 1.0.0
+>>>>>>> d2abd2740ea4aab8917df17b6b75b072dcae6a69
 	 *
 	 * @return void
 	 */
@@ -65,7 +77,11 @@ class Twenty_Twenty_One_Dark_Mode {
 			// Add Dark Mode variable overrides.
 			wp_add_inline_style(
 				'twenty-twenty-one-custom-color-overrides',
+<<<<<<< HEAD
 				'.is-dark-theme.is-dark-theme .editor-styles-wrapper { --global--color-background: var(--global--color-dark-gray); --global--color-primary: var(--global--color-light-gray); --global--color-secondary: var(--global--color-light-gray); --button--color-text: var(--global--color-background); --button--color-text-hover: var(--global--color-secondary); --button--color-text-active: var(--global--color-secondary); --button--color-background: var(--global--color-secondary); --button--color-background-active: var(--global--color-background); --global--color-border: #9ea1a7; --table--stripes-border-color: rgba(240, 240, 240, 0.15); --table--stripes-background-color: rgba(240, 240, 240, 0.15); }'
+=======
+				'.is-dark-theme.is-dark-theme .editor-styles-wrapper { --global--color-background: var(--global--color-dark-gray); --global--color-primary: var(--global--color-light-gray); --global--color-secondary: var(--global--color-light-gray); --button--color-text: var(--global--color-background); --button--color-text-hover: var(--global--color-secondary); --button--color-text-active: var(--global--color-secondary); --button--color-background: var(--global--color-secondary); --button--color-background-active: var(--global--color-background); --global--color-border: #9ea1a7; }'
+>>>>>>> d2abd2740ea4aab8917df17b6b75b072dcae6a69
 			);
 		}
 		wp_enqueue_script(
@@ -90,7 +106,11 @@ class Twenty_Twenty_One_Dark_Mode {
 	 *
 	 * @access public
 	 *
+<<<<<<< HEAD
 	 * @since Twenty Twenty-One 1.0
+=======
+	 * @since 1.0.0
+>>>>>>> d2abd2740ea4aab8917df17b6b75b072dcae6a69
 	 *
 	 * @return void
 	 */
@@ -110,7 +130,11 @@ class Twenty_Twenty_One_Dark_Mode {
 	 *
 	 * @access public
 	 *
+<<<<<<< HEAD
 	 * @since Twenty Twenty-One 1.0
+=======
+	 * @since 1.0.0
+>>>>>>> d2abd2740ea4aab8917df17b6b75b072dcae6a69
 	 *
 	 * @return void
 	 */
@@ -132,7 +156,11 @@ class Twenty_Twenty_One_Dark_Mode {
 	 *
 	 * @access public
 	 *
+<<<<<<< HEAD
 	 * @since Twenty Twenty-One 1.0
+=======
+	 * @since 1.0.0
+>>>>>>> d2abd2740ea4aab8917df17b6b75b072dcae6a69
 	 *
 	 * @param WP_Customize_Manager $wp_customize Theme Customizer object.
 	 *
@@ -184,9 +212,15 @@ class Twenty_Twenty_One_Dark_Mode {
 
 		$description  = '<p>';
 		$description .= sprintf(
+<<<<<<< HEAD
 			/* translators: %s: Twenty Twenty-One support article URL. */
 			__( 'Dark Mode is a device setting. If a visitor to your site requests it, your site will be shown with a dark background and light text. <a href="%s">Learn more about Dark Mode.</a>', 'twentytwentyone' ),
 			esc_url( __( 'https://wordpress.org/support/article/twenty-twenty-one/#dark-mode-support', 'twentytwentyone' ) )
+=======
+			// translators: %s is the wordpress.org Twenty Twenty-One support article URL.
+			__( 'Dark Mode is a device setting. If a visitor to your site requests it, your site will be shown with a dark background and light text. <a href="%s">Learn more about Dark Mode.</a>', 'twentytwentyone' ),
+			__( 'https://wordpress.org/support/article/twenty-twenty-one/', 'twentytwentyone' )
+>>>>>>> d2abd2740ea4aab8917df17b6b75b072dcae6a69
 		);
 		$description .= '</p>';
 		$description .= '<p>' . __( 'Dark Mode can also be turned on and off with a button that you can find in the bottom right corner of the page.', 'twentytwentyone' ) . '</p>';
@@ -224,7 +258,11 @@ class Twenty_Twenty_One_Dark_Mode {
 	 *
 	 * @access public
 	 *
+<<<<<<< HEAD
 	 * @since Twenty Twenty-One 1.0
+=======
+	 * @since 1.0.0
+>>>>>>> d2abd2740ea4aab8917df17b6b75b072dcae6a69
 	 *
 	 * @param string $classes The classes for <html> element.
 	 *
@@ -249,7 +287,11 @@ class Twenty_Twenty_One_Dark_Mode {
 	 *
 	 * @access public
 	 *
+<<<<<<< HEAD
 	 * @since Twenty Twenty-One 1.0
+=======
+	 * @since 1.0.0
+>>>>>>> d2abd2740ea4aab8917df17b6b75b072dcae6a69
 	 *
 	 * @param string $classes The admin body-classes.
 	 *
@@ -282,7 +324,11 @@ class Twenty_Twenty_One_Dark_Mode {
 	 *
 	 * @access public
 	 *
+<<<<<<< HEAD
 	 * @since Twenty Twenty-One 1.0
+=======
+	 * @since 1.0.0
+>>>>>>> d2abd2740ea4aab8917df17b6b75b072dcae6a69
 	 *
 	 * @return bool
 	 */
@@ -300,7 +346,11 @@ class Twenty_Twenty_One_Dark_Mode {
 	 *
 	 * @access public
 	 *
+<<<<<<< HEAD
 	 * @since Twenty Twenty-One 1.0
+=======
+	 * @since 1.0.0
+>>>>>>> d2abd2740ea4aab8917df17b6b75b072dcae6a69
 	 *
 	 * @return void
 	 */
@@ -319,7 +369,11 @@ class Twenty_Twenty_One_Dark_Mode {
 	 *
 	 * @access public
 	 *
+<<<<<<< HEAD
 	 * @since Twenty Twenty-One 1.0
+=======
+	 * @since 1.0.0
+>>>>>>> d2abd2740ea4aab8917df17b6b75b072dcae6a69
 	 *
 	 * @param array $attrs The attributes to add to our <button> element.
 	 *
@@ -380,7 +434,11 @@ class Twenty_Twenty_One_Dark_Mode {
 	 *
 	 * @access public
 	 *
+<<<<<<< HEAD
 	 * @since Twenty Twenty-One 1.0
+=======
+	 * @since 1.0.0
+>>>>>>> d2abd2740ea4aab8917df17b6b75b072dcae6a69
 	 *
 	 * @return void
 	 */
@@ -395,7 +453,11 @@ class Twenty_Twenty_One_Dark_Mode {
 	 *
 	 * @access public
 	 *
+<<<<<<< HEAD
 	 * @since Twenty Twenty-One 1.0
+=======
+	 * @since 1.0.0
+>>>>>>> d2abd2740ea4aab8917df17b6b75b072dcae6a69
 	 *
 	 * @return void
 	 */

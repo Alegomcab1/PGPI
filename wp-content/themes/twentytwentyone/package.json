@@ -1,6 +1,10 @@
 {
 	"name": "twentytwentyone",
+<<<<<<< HEAD
 	"version": "1.1.0",
+=======
+	"version": "1.0.0",
+>>>>>>> d2abd2740ea4aab8917df17b6b75b072dcae6a69
 	"description": "Default WP Theme",
 	"author": "The WordPress Contributors",
 	"license": "GPL-2.0-or-later",

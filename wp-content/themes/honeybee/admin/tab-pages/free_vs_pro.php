@@ -53,8 +53,11 @@
                             <p><?php esc_html_e('Show user feedback on the Homepage.', 'honeybee'); ?></p>
                         </li>
 
+<<<<<<< HEAD
                         <li><span class="plan-feature"><i class="fa fa-check-circle-o green-icon"></i> <?php esc_html_e('Footer Credit', 'honeybee'); ?></span>
                         </li>
+=======
+>>>>>>> d2abd2740ea4aab8917df17b6b75b072dcae6a69
 
                         <li><span class="plan-feature"><i class="fa fa-check-circle-o green-icon"></i> <?php esc_html_e('Typography Settings', 'honeybee'); ?></span>
                             <p><?php esc_html_e('You can customize the style without adding any code.', 'honeybee'); ?></p>
@@ -101,7 +104,10 @@
                         <li><span class="dashicons-before dashicons-no-alt red"></span></li>
                         <li><span class="dashicons-before dashicons-no-alt red"></span></li>
                         <li><span class="dashicons-before dashicons-yes green"></span></li>
+<<<<<<< HEAD
                         <li><span class="dashicons-before"><?php esc_html_e("Not Editable", 'honeybee'); ?></span></li>
+=======
+>>>>>>> d2abd2740ea4aab8917df17b6b75b072dcae6a69
                         <li><span class="dashicons-before dashicons-no-alt red"></span></li>
                         <li><span class="dashicons-before dashicons-no-alt red"></span></li>
                         <li><span class="dashicons-before dashicons-yes green"></span></li>
@@ -134,7 +140,10 @@
                         <li><span class="dashicons-before dashicons-yes green"></span></li>
                         <li><span class="dashicons-before dashicons-yes green"></span></li>
                         <li><span class="dashicons-before dashicons-yes green"></span></li>
+<<<<<<< HEAD
                         <li><span class="dashicons-before"><?php esc_html_e("Editable", 'honeybee'); ?></span></li>
+=======
+>>>>>>> d2abd2740ea4aab8917df17b6b75b072dcae6a69
                         <li><span class="dashicons-before dashicons-yes green"></span></li>
                         <li><span class="dashicons-before dashicons-yes green"></span></li>
                         <li><span class="dashicons-before dashicons-yes green"></span></li>

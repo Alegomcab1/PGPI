@@ -89,6 +89,10 @@ require ( HONEYPRESS_THEME_DIR . '/inc/customizer/customizer.php' );
 require ( HONEYPRESS_THEME_DIR . '/inc/customizer/customizer_theme_style.php' );
 require ( HONEYPRESS_THEME_DIR . '/inc/customizer/blog-page-options.php' );
 require ( HONEYPRESS_THEME_DIR . '/inc/customizer/single-blog-options.php' );
+<<<<<<< HEAD
+=======
+require ( HONEYPRESS_THEME_DIR . '/inc/customizer/footer-options.php' );
+>>>>>>> d2abd2740ea4aab8917df17b6b75b072dcae6a69
 require ( HONEYPRESS_THEME_DIR . '/inc/customizer/customizer-pro-feature.php' );
 require ( HONEYPRESS_THEME_DIR . '/inc/customizer/customizer-recommended-plugin.php');
 require_once HONEYPRESS_THEME_DIR . '/inc/class-tgm-plugin-activation.php';
@@ -158,6 +162,7 @@ function honeypress_register_required_plugins() {
 	);
 
 	tgmpa( $plugins, $config );
+<<<<<<< HEAD
 }
 
 //Set for old user before 1.3.8
@@ -188,3 +193,6 @@ function honeypress_remove_customize_register( $wp_customize ) {
 
 }
 add_action( 'customize_register', 'honeypress_remove_customize_register',11);
+=======
+}
+>>>>>>> d2abd2740ea4aab8917df17b6b75b072dcae6a69

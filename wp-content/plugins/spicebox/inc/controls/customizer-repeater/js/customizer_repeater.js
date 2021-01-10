@@ -341,6 +341,7 @@ jQuery(document).ready(function () {
         return false;
     });
 
+<<<<<<< HEAD
     theme_conrols.on('click', '.customizer-repeater-checkbox', function (event) {
           if (this.checked) {
               this.setAttribute("checked", "checked");
@@ -348,6 +349,8 @@ jQuery(document).ready(function () {
               this.removeAttribute("checked");
           }
     });
+=======
+>>>>>>> d2abd2740ea4aab8917df17b6b75b072dcae6a69
 
     theme_conrols.on('keyup', '.customizer-repeater-title-control', function () {
         customizer_repeater_refresh_general_control_values();

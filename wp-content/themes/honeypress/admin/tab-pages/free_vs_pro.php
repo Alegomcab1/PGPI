@@ -7,7 +7,11 @@
     <div class="free-vs-pro-tab-content info-tab-content">
         <table class="free-pro-table">
             <thead>
+<<<<<<< HEAD
                 <tr><th></th><th><?php echo esc_html__('Free','honeypress'); ?></th><th><?php echo esc_html__('Pro','honeypress'); ?></th></tr>
+=======
+                <tr><th></th><th><?php echo esc_html__('HoneyPress','honeypress'); ?></th><th><?php echo esc_html__('HoneyPress Pro','honeypress'); ?></th></tr>
+>>>>>>> d2abd2740ea4aab8917df17b6b75b072dcae6a69
             </thead>
             <tbody>
                 <tr>
@@ -203,6 +207,7 @@
                     <td class="only-pro"><span class="dashicons-before "><?php echo esc_html__('1','honeypress'); ?></span></td>
                     <td class="only-lite"><span class="dashicons-before"><?php echo esc_html__('1','honeypress'); ?></span></td>
                 </tr>
+<<<<<<< HEAD
 
                 <tr>
                     <td>
@@ -211,6 +216,8 @@
                     <td class="only-lite"><span class="dashicons-before"><?php echo esc_html__('Not Editable','honeypress'); ?></span></td>
                     <td class="only-lite"><span class="dashicons-before"><?php echo esc_html__('Editable','honeypress'); ?></span></td>
                 </tr>
+=======
+>>>>>>> d2abd2740ea4aab8917df17b6b75b072dcae6a69
 				
                 <tr>
                     <td>
@@ -326,7 +333,11 @@
 
 
                 <tr class="ti-about-page-text-center">
+<<<<<<< HEAD
                     <td></td><td colspan="2"><a href="<?php echo esc_url('https://spicethemes.com/honeypress-pro/'); ?>" target="_blank" class="button button-primary button-hero"><?php esc_html_e( 'Get PRO Version Now!','honeypress' ); ?></a></td>
+=======
+                    <td></td><td colspan="2"><a href="<?php echo esc_url('https://spicethemes.com/honeypress-pro/'); ?>" target="_blank" class="button button-primary button-hero"><?php esc_html_e( 'Get HoneyPress PRO Now!','honeypress' ); ?></a></td>
+>>>>>>> d2abd2740ea4aab8917df17b6b75b072dcae6a69
                 </tr>
             </tbody>
         </table>

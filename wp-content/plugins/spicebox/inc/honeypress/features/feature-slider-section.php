@@ -42,9 +42,12 @@ if (!function_exists('spiceb_honeypress_slider_customize_register')) :
         }elseif ($theme->name == 'HoneyWaves') {
             $wp_customize->add_setting('home_slider_image', array('default' => SPICEB_PLUGIN_URL . 'inc/honeypress/images/slider/honeywaves-slider.jpg',
                 'sanitize_callback' => 'esc_url_raw', 'transport' => $selective_refresh,));
+<<<<<<< HEAD
         }elseif ($theme->name == 'HoneyBee') {
             $wp_customize->add_setting('home_slider_image', array('default' => SPICEB_PLUGIN_URL . 'inc/honeypress/images/slider/honeybee-slider.jpg',
                 'sanitize_callback' => 'esc_url_raw', 'transport' => $selective_refresh,));
+=======
+>>>>>>> d2abd2740ea4aab8917df17b6b75b072dcae6a69
         } else {
             $wp_customize->add_setting('home_slider_image', array('default' => SPICEB_PLUGIN_URL . 'inc/honeypress/images/slider/slider.jpg',
                 'sanitize_callback' => 'esc_url_raw', 'transport' => $selective_refresh,));

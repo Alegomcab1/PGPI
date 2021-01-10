@@ -2,8 +2,13 @@
 Contributors: spicethemes
 Tags: widget, admin, widgets
 Requires at least: 3.3+
+<<<<<<< HEAD
 Tested up to: 5.5
 Stable tag: 1.3.2
+=======
+Tested up to: 5.5.1
+Stable tag: 1.3.1
+>>>>>>> d2abd2740ea4aab8917df17b6b75b072dcae6a69
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -208,10 +213,13 @@ Fixed minor issues of HoneyPress child themes.
 1. Added variations ( testimonial & service ) for Stacy Child theme.
 2. Dummy content updated for spicepress theme.
 
+<<<<<<< HEAD
 =1.3.2=
 1. Added variations for HoneyBee child theme.
 2. Fixed repeater checkbox issue.
 
+=======
+>>>>>>> d2abd2740ea4aab8917df17b6b75b072dcae6a69
 =======External resources=======
 
 Alpha color picker Control:
@@ -224,9 +232,15 @@ Copyright: (c) 2016 Codeinwp cristian-ungureanu
 License: MIT license
 Source: https://github.com/Codeinwp/customizer-controls/tree/master/customizer-repeater
 
+<<<<<<< HEAD
 =========== Images ============
 
 == HoneyWaves Images ==
+=======
+
+== HoneyWaves Images ==
+
+>>>>>>> d2abd2740ea4aab8917df17b6b75b072dcae6a69
 * Image used in Slider
 License CC0 Public Domain
 https://pxhere.com/en/photo/871986
@@ -244,9 +258,13 @@ https://pxhere.com/en/photo/759001
 ==Tromas Images==
 * Image used in Slider
 License CC0 Public Domain
+<<<<<<< HEAD
 https://pxhere.com/en/photo/1434201
 
 == HoneyBee Images ==
 * Image used in Slider
 License CC0 Public Domain
 https://stocksnap.io/photo/woman-mobile-Q93BUD2Z3Z
+=======
+https://pxhere.com/en/photo/1434201
+>>>>>>> d2abd2740ea4aab8917df17b6b75b072dcae6a69

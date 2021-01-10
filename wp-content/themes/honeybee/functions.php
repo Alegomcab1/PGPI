@@ -28,6 +28,10 @@ function honeybee_sanitize_text($input) {
 function honeybee_setup() {
     load_theme_textdomain('honeybee', HONEYBEE_CHILD_TEMPLATE_DIR . '/languages');
 
+<<<<<<< HEAD
+=======
+    require( HONEYBEE_CHILD_TEMPLATE_DIR . '/inc/customizer/footer-options.php');
+>>>>>>> d2abd2740ea4aab8917df17b6b75b072dcae6a69
     require( HONEYBEE_CHILD_TEMPLATE_DIR . '/inc/customizer/customizer_theme_style.php');
     require( HONEYBEE_CHILD_TEMPLATE_DIR . '/functions/widgets/sidebars.php');
     require( HONEYBEE_CHILD_TEMPLATE_DIR . '/functions/widgets/wdl_social_icon.php');
@@ -115,6 +119,7 @@ function honeybee_custom_light() {
     endif;
 }
 
+<<<<<<< HEAD
 //Set for old user before 1.3.8
 if (!get_option('honeypress_user_before_1_3_8', false)) {
     //detect old user and set value
@@ -136,6 +141,8 @@ if (!get_option('honeypress_user_before_1_3_8', false)) {
     }
 }
 
+=======
+>>>>>>> d2abd2740ea4aab8917df17b6b75b072dcae6a69
 function honeybee_footer_section_hook() {
     ?>
     <footer class="site-footer">  
@@ -147,18 +154,26 @@ function honeybee_footer_section_hook() {
             endif;
             ?>  
         </div>
+<<<<<<< HEAD
         <?php
         $honeybee_user=get_option('honeypress_user_before_1_3_8');
         if($honeybee_user=='old'){?>
+=======
+            <?php if (get_theme_mod('footer_enable', true) == true): ?>
+>>>>>>> d2abd2740ea4aab8917df17b6b75b072dcae6a69
             <div class="site-info text-center">
                 <?php $honeybee_footer_copyright = get_theme_mod('footer_copyright', '<p>' . __('Proudly powered by <a href="https://wordpress.org"> WordPress</a> | Theme: <a href="https://spicethemes.com" rel="nofollow">HoneyBee</a> by SpiceThemes', 'honeybee') . '</p>'); ?>  
             <?php echo wp_kses_post($honeybee_footer_copyright); ?> 
             </div>
+<<<<<<< HEAD
         <?php } else{?>
             <div class="site-info text-center 2">
                  <p><?php esc_html_e( 'Proudly powered by', 'honeybee' ); ?> <a href="<?php echo esc_url( __( 'https://wordpress.org', 'honeybee' ) ); ?>"><?php esc_html_e( 'WordPress', 'honeybee' ); ?> </a> <?php esc_html_e( '| Theme:', 'honeybee' ); ?> <a href="<?php echo esc_url( __( 'https://spicethemes.com', 'honeybee' ) ); ?>" rel="nofollow"> <?php esc_html_e( 'HoneyBee', 'honeybee' ); ?></a> <?php esc_html_e( 'by SpiceThemes', 'honeybee' );?></p>
             </div>
         <?php } ?>
+=======
+    <?php endif; ?>
+>>>>>>> d2abd2740ea4aab8917df17b6b75b072dcae6a69
     </footer>
     <?php
 }
@@ -184,6 +199,7 @@ function honeybee_customizer_styles() { ?>
     </style>
     <?php
 }
+<<<<<<< HEAD
 add_action( 'customize_controls_print_styles', 'honeybee_customizer_styles',11);
 
 //Remove Footer section
@@ -193,3 +209,6 @@ function honeybee_remove_customize_register( $wp_customize ) {
 
 }
 add_action( 'customize_register', 'honeybee_remove_customize_register',11);
+=======
+add_action( 'customize_controls_print_styles', 'honeybee_customizer_styles',11);
+>>>>>>> d2abd2740ea4aab8917df17b6b75b072dcae6a69

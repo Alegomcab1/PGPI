@@ -3,7 +3,11 @@ Contributors: wordpressdotorg
 Requires at least: 5.3
 Tested up to: 5.6
 Requires PHP: 5.6
+<<<<<<< HEAD
 Stable tag: 1.1
+=======
+Stable tag: 1.0
+>>>>>>> d2abd2740ea4aab8917df17b6b75b072dcae6a69
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -21,7 +25,11 @@ Take it for a spin! See how Twenty Twenty-One elevates your portfolio, business 
 2. Type in Twenty Twenty-One in the search form and press the 'Enter' key on your keyboard.
 3. Click on the 'Activate' button to use your new theme right away.
 4. Go to INSERT ABOUT PAGE for a guide on how to customize this theme.
+<<<<<<< HEAD
 5. Navigate to Appearance > Customize in your admin panel and customize to your taste.
+=======
+5. Navigate to Appearance > Customize in your admin panel and customize to taste.
+>>>>>>> d2abd2740ea4aab8917df17b6b75b072dcae6a69
 
 == Privacy ==
 Twenty Twenty-One uses LocalStorage to save the setting when Dark Mode support is turned on or off.
@@ -30,6 +38,7 @@ No data is saved in the database or transferred.
 
 == Changelog ==
 
+<<<<<<< HEAD
 = 1.1 =
 * Released: December 22, 2020
 
@@ -39,6 +48,12 @@ https://wordpress.org/support/article/twenty-twenty-one-changelog#Version_1.1
 * Released: December 8, 2020
 
 https://wordpress.org/support/article/twenty-twenty-one-changelog#Version_1.0
+=======
+= 1.0 =
+* Released: December 8, 2020
+
+Initial release
+>>>>>>> d2abd2740ea4aab8917df17b6b75b072dcae6a69
 
 == Copyright ==
 

@@ -3,7 +3,11 @@ msgid ""
 msgstr ""
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 "Project-Id-Version: Honeypress\n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2020-12-19 18:12+0530\n"
+=======
+"POT-Creation-Date: 2020-11-18 17:13+0530\n"
+>>>>>>> d2abd2740ea4aab8917df17b6b75b072dcae6a69
 "PO-Revision-Date: 2019-04-09 11:22+0530\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -181,12 +185,22 @@ msgstr ""
 msgid "Activate now"
 msgstr ""
 
+<<<<<<< HEAD
 #: admin/tab-pages/free_vs_pro.php:10
 msgid "Free"
 msgstr ""
 
 #: admin/tab-pages/free_vs_pro.php:10
 msgid "Pro"
+=======
+#. Theme Name of the plugin/theme
+#: admin/tab-pages/free_vs_pro.php:10
+msgid "HoneyPress"
+msgstr ""
+
+#: admin/tab-pages/free_vs_pro.php:10
+msgid "HoneyPress Pro"
+>>>>>>> d2abd2740ea4aab8917df17b6b75b072dcae6a69
 msgstr ""
 
 #: admin/tab-pages/free_vs_pro.php:15
@@ -296,6 +310,7 @@ msgid "Number of footer layouts"
 msgstr ""
 
 #: admin/tab-pages/free_vs_pro.php:209
+<<<<<<< HEAD
 msgid "Footer Credit"
 msgstr ""
 
@@ -332,45 +347,104 @@ msgid "Google Map"
 msgstr ""
 
 #: admin/tab-pages/free_vs_pro.php:265
+=======
+msgid "Contact Form Section"
+msgstr ""
+
+#: admin/tab-pages/free_vs_pro.php:217
+msgid "Subscriber Section"
+msgstr ""
+
+#: admin/tab-pages/free_vs_pro.php:225
+msgid "Callout Section"
+msgstr ""
+
+#: admin/tab-pages/free_vs_pro.php:233
+msgid "Portfolio Section"
+msgstr ""
+
+#: admin/tab-pages/free_vs_pro.php:241
+msgid "Funfact Section"
+msgstr ""
+
+#: admin/tab-pages/free_vs_pro.php:249
+msgid "Google Map"
+msgstr ""
+
+#: admin/tab-pages/free_vs_pro.php:257
+>>>>>>> d2abd2740ea4aab8917df17b6b75b072dcae6a69
 #: inc/customizer/customizer-pro-feature.php:46
 msgid "Client Section"
 msgstr ""
 
+<<<<<<< HEAD
 #: admin/tab-pages/free_vs_pro.php:273
 msgid "Blog Templates (Left, Right, Full-Width)"
 msgstr ""
 
 #: admin/tab-pages/free_vs_pro.php:281
+=======
+#: admin/tab-pages/free_vs_pro.php:265
+msgid "Blog Templates (Left, Right, Full-Width)"
+msgstr ""
+
+#: admin/tab-pages/free_vs_pro.php:273
+>>>>>>> d2abd2740ea4aab8917df17b6b75b072dcae6a69
 #: admin/tab-pages/getting-started.php:102
 msgid "Typography"
 msgstr ""
 
+<<<<<<< HEAD
 #: admin/tab-pages/free_vs_pro.php:289
+=======
+#: admin/tab-pages/free_vs_pro.php:281
+>>>>>>> d2abd2740ea4aab8917df17b6b75b072dcae6a69
 #: admin/tab-pages/getting-started.php:113
 msgid "Drag and drop section orders"
 msgstr ""
 
+<<<<<<< HEAD
 #: admin/tab-pages/free_vs_pro.php:297
+=======
+#: admin/tab-pages/free_vs_pro.php:289
+>>>>>>> d2abd2740ea4aab8917df17b6b75b072dcae6a69
 #: admin/tab-pages/getting-started.php:109
 msgid "Mulitple Color Schemes"
 msgstr ""
 
+<<<<<<< HEAD
 #: admin/tab-pages/free_vs_pro.php:305
+=======
+#: admin/tab-pages/free_vs_pro.php:297
+>>>>>>> d2abd2740ea4aab8917df17b6b75b072dcae6a69
 #: admin/tab-pages/getting-started.php:130
 msgid "Homepage Sections Before/After Hooks"
 msgstr ""
 
+<<<<<<< HEAD
 #: admin/tab-pages/free_vs_pro.php:313
+=======
+#: admin/tab-pages/free_vs_pro.php:305
+>>>>>>> d2abd2740ea4aab8917df17b6b75b072dcae6a69
 #: admin/tab-pages/getting-started.php:105
 msgid "WPML Support"
 msgstr ""
 
+<<<<<<< HEAD
 #: admin/tab-pages/free_vs_pro.php:321
 msgid "Support Forum"
 msgstr ""
 
 #: admin/tab-pages/free_vs_pro.php:329
 msgid "Get PRO Version Now!"
+=======
+#: admin/tab-pages/free_vs_pro.php:313
+msgid "Support Forum"
+msgstr ""
+
+#: admin/tab-pages/free_vs_pro.php:321
+msgid "Get HoneyPress PRO Now!"
+>>>>>>> d2abd2740ea4aab8917df17b6b75b072dcae6a69
 msgstr ""
 
 #: admin/tab-pages/getting-started.php:10
@@ -1310,6 +1384,7 @@ msgstr ""
 msgid "Skin color"
 msgstr ""
 
+<<<<<<< HEAD
 #: inc/customizer/helper-function.php:13
 #: inc/customizer/helper-function.php:20
 msgid "<i class=\"fa fa-angle-double-left\"></i>"
@@ -1326,12 +1401,28 @@ msgid "%1$s  %2$s"
 msgstr ""
 
 #: inc/customizer/helper-function.php:77
+=======
+#: inc/customizer/footer-options.php:6
+msgid "Footer Settings"
+msgstr ""
+
+#: inc/customizer/footer-options.php:7
+msgid "Footer Settings:"
+msgstr ""
+
+#: inc/customizer/footer-options.php:24
+msgid "Hide/Show Footer"
+msgstr ""
+
+#: inc/customizer/footer-options.php:34 inc/customizer/helper-function.php:75
+>>>>>>> d2abd2740ea4aab8917df17b6b75b072dcae6a69
 msgid ""
 "Proudly powered by <a href=\"https://wordpress.org\"> WordPress</a> | "
 "Theme: <a href=\"https://spicethemes.com\" rel=\"nofollow\">HoneyPress</a> "
 "by SpiceThemes"
 msgstr ""
 
+<<<<<<< HEAD
 #: inc/customizer/helper-function.php:82
 msgid "Proudly powered by"
 msgstr ""
@@ -1360,6 +1451,25 @@ msgstr ""
 
 #: inc/customizer/helper-function.php:82
 msgid "by SpiceThemes"
+=======
+#: inc/customizer/footer-options.php:42
+msgid "Copyright Content"
+msgstr ""
+
+#: inc/customizer/helper-function.php:13
+#: inc/customizer/helper-function.php:20
+msgid "<i class=\"fa fa-angle-double-left\"></i>"
+msgstr ""
+
+#: inc/customizer/helper-function.php:14
+#: inc/customizer/helper-function.php:19
+msgid "<i class=\"fa fa-angle-double-right\"></i>"
+msgstr ""
+
+#: inc/customizer/helper-function.php:39
+#, php-format
+msgid "%1$s  %2$s"
+>>>>>>> d2abd2740ea4aab8917df17b6b75b072dcae6a69
 msgstr ""
 
 #: inc/customizer/single-blog-options.php:11
@@ -1443,7 +1553,11 @@ msgid "WooCommerce sidebar widget area"
 msgstr ""
 
 #: index-news.php:72 template-parts/content-search.php:17
+<<<<<<< HEAD
 #: template-parts/content-single.php:22 template-parts/content.php:17
+=======
+#: template-parts/content-single.php:21 template-parts/content.php:17
+>>>>>>> d2abd2740ea4aab8917df17b6b75b072dcae6a69
 msgid "By"
 msgstr ""
 
@@ -1498,6 +1612,13 @@ msgstr ""
 msgid "spicethemes"
 msgstr ""
 
+<<<<<<< HEAD
+=======
+#. Author URI of the plugin/theme
+msgid "https://spicethemes.com"
+msgstr ""
+
+>>>>>>> d2abd2740ea4aab8917df17b6b75b072dcae6a69
 #. Template Name of the plugin/theme
 msgid "Business Template"
 msgstr ""

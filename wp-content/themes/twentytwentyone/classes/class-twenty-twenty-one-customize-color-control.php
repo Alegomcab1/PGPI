@@ -4,13 +4,21 @@
  *
  * @package WordPress
  * @subpackage Twenty_Twenty_One
+<<<<<<< HEAD
  * @since Twenty Twenty-One 1.0
+=======
+ * @since 1.0.0
+>>>>>>> d2abd2740ea4aab8917df17b6b75b072dcae6a69
  */
 
 /**
  * Customize Color Control class.
  *
+<<<<<<< HEAD
  * @since Twenty Twenty-One 1.0
+=======
+ * @since 1.0.0
+>>>>>>> d2abd2740ea4aab8917df17b6b75b072dcae6a69
  *
  * @see WP_Customize_Control
  */
@@ -18,7 +26,11 @@ class Twenty_Twenty_One_Customize_Color_Control extends WP_Customize_Color_Contr
 	/**
 	 * The control type.
 	 *
+<<<<<<< HEAD
 	 * @since Twenty Twenty-One 1.0
+=======
+	 * @since 1.0.0
+>>>>>>> d2abd2740ea4aab8917df17b6b75b072dcae6a69
 	 *
 	 * @var string
 	 */
@@ -29,7 +41,11 @@ class Twenty_Twenty_One_Customize_Color_Control extends WP_Customize_Color_Contr
 	 *
 	 * @access public
 	 *
+<<<<<<< HEAD
 	 * @since Twenty Twenty-One 1.0
+=======
+	 * @since 1.0.0
+>>>>>>> d2abd2740ea4aab8917df17b6b75b072dcae6a69
 	 *
 	 * @var array
 	 */
@@ -40,7 +56,11 @@ class Twenty_Twenty_One_Customize_Color_Control extends WP_Customize_Color_Contr
 	 *
 	 * @access public
 	 *
+<<<<<<< HEAD
 	 * @since Twenty Twenty-One 1.0
+=======
+	 * @since 1.0.0
+>>>>>>> d2abd2740ea4aab8917df17b6b75b072dcae6a69
 	 *
 	 * @return void
 	 */
@@ -62,7 +82,11 @@ class Twenty_Twenty_One_Customize_Color_Control extends WP_Customize_Color_Contr
 	 *
 	 * @access public
 	 *
+<<<<<<< HEAD
 	 * @since Twenty Twenty-One 1.0
+=======
+	 * @since 1.0.0
+>>>>>>> d2abd2740ea4aab8917df17b6b75b072dcae6a69
 	 *
 	 * @uses WP_Customize_Control::to_json()
 	 *

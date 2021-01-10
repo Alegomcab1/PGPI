@@ -3,7 +3,11 @@ Contributors: wordpressdotorg
 Tags: one-column, flexible-header, accessibility-ready, custom-colors, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, rtl-language-support, sticky-post, threaded-comments, translation-ready, block-patterns
 Requires at least: 4.9.6
 Tested up to: 5.6
+<<<<<<< HEAD
 Stable tag: 1.9
+=======
+Stable tag: 1.8
+>>>>>>> d2abd2740ea4aab8917df17b6b75b072dcae6a69
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -39,11 +43,14 @@ GNU General Public License for more details.
 
 == Changelog ==
 
+<<<<<<< HEAD
 = 1.9 =
 * Released: December 22, 2020
 
 https://codex.wordpress.org/Twenty_Nineteen_Theme_Changelog#Version_1.9
 
+=======
+>>>>>>> d2abd2740ea4aab8917df17b6b75b072dcae6a69
 = 1.8 =
 * Released: December 8, 2020
 

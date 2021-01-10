@@ -4,14 +4,22 @@
  *
  * @package WordPress
  * @subpackage Twenty_Twenty_One
+<<<<<<< HEAD
  * @since Twenty Twenty-One 1.0
+=======
+ * @since 1.0.0
+>>>>>>> d2abd2740ea4aab8917df17b6b75b072dcae6a69
  */
 
 if ( ! class_exists( 'Twenty_Twenty_One_Customize' ) ) {
 	/**
 	 * Customizer Settings.
 	 *
+<<<<<<< HEAD
 	 * @since Twenty Twenty-One 1.0
+=======
+	 * @since 1.0.0
+>>>>>>> d2abd2740ea4aab8917df17b6b75b072dcae6a69
 	 */
 	class Twenty_Twenty_One_Customize {
 
@@ -20,7 +28,11 @@ if ( ! class_exists( 'Twenty_Twenty_One_Customize' ) ) {
 		 *
 		 * @access public
 		 *
+<<<<<<< HEAD
 		 * @since Twenty Twenty-One 1.0
+=======
+		 * @since 1.0.0
+>>>>>>> d2abd2740ea4aab8917df17b6b75b072dcae6a69
 		 */
 		public function __construct() {
 			add_action( 'customize_register', array( $this, 'register' ) );
@@ -31,7 +43,11 @@ if ( ! class_exists( 'Twenty_Twenty_One_Customize' ) ) {
 		 *
 		 * @access public
 		 *
+<<<<<<< HEAD
 		 * @since Twenty Twenty-One 1.0
+=======
+		 * @since 1.0.0
+>>>>>>> d2abd2740ea4aab8917df17b6b75b072dcae6a69
 		 *
 		 * @param WP_Customize_Manager $wp_customize Theme Customizer object.
 		 *
@@ -153,7 +169,11 @@ if ( ! class_exists( 'Twenty_Twenty_One_Customize' ) ) {
 		 *
 		 * @access public
 		 *
+<<<<<<< HEAD
 		 * @since Twenty Twenty-One 1.0
+=======
+		 * @since 1.0.0
+>>>>>>> d2abd2740ea4aab8917df17b6b75b072dcae6a69
 		 *
 		 * @param bool $checked Whether or not a box is checked.
 		 *
@@ -168,7 +188,11 @@ if ( ! class_exists( 'Twenty_Twenty_One_Customize' ) ) {
 		 *
 		 * @access public
 		 *
+<<<<<<< HEAD
 		 * @since Twenty Twenty-One 1.0
+=======
+		 * @since 1.0.0
+>>>>>>> d2abd2740ea4aab8917df17b6b75b072dcae6a69
 		 *
 		 * @return void
 		 */
@@ -181,7 +205,11 @@ if ( ! class_exists( 'Twenty_Twenty_One_Customize' ) ) {
 		 *
 		 * @access public
 		 *
+<<<<<<< HEAD
 		 * @since Twenty Twenty-One 1.0
+=======
+		 * @since 1.0.0
+>>>>>>> d2abd2740ea4aab8917df17b6b75b072dcae6a69
 		 *
 		 * @return void
 		 */

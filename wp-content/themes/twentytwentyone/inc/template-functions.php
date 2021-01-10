@@ -4,13 +4,21 @@
  *
  * @package WordPress
  * @subpackage Twenty_Twenty_One
+<<<<<<< HEAD
  * @since Twenty Twenty-One 1.0
+=======
+ * @since 1.0.0
+>>>>>>> d2abd2740ea4aab8917df17b6b75b072dcae6a69
  */
 
 /**
  * Adds custom classes to the array of body classes.
  *
+<<<<<<< HEAD
  * @since Twenty Twenty-One 1.0
+=======
+ * @since 1.0.0
+>>>>>>> d2abd2740ea4aab8917df17b6b75b072dcae6a69
  *
  * @param array $classes Classes for the body element.
  *
@@ -41,7 +49,11 @@ add_filter( 'body_class', 'twenty_twenty_one_body_classes' );
 /**
  * Adds custom class to the array of posts classes.
  *
+<<<<<<< HEAD
  * @since Twenty Twenty-One 1.0
+=======
+ * @since 1.0.0
+>>>>>>> d2abd2740ea4aab8917df17b6b75b072dcae6a69
  *
  * @param array $classes An array of CSS classes.
  *
@@ -57,7 +69,11 @@ add_filter( 'post_class', 'twenty_twenty_one_post_classes', 10, 3 );
 /**
  * Add a pingback url auto-discovery header for single posts, pages, or attachments.
  *
+<<<<<<< HEAD
  * @since Twenty Twenty-One 1.0
+=======
+ * @since 1.0.0
+>>>>>>> d2abd2740ea4aab8917df17b6b75b072dcae6a69
  *
  * @return void
  */
@@ -71,7 +87,11 @@ add_action( 'wp_head', 'twenty_twenty_one_pingback_header' );
 /**
  * Remove the `no-js` class from body if JS is supported.
  *
+<<<<<<< HEAD
  * @since Twenty Twenty-One 1.0
+=======
+ * @since 1.0.0
+>>>>>>> d2abd2740ea4aab8917df17b6b75b072dcae6a69
  *
  * @return void
  */
@@ -83,7 +103,11 @@ add_action( 'wp_footer', 'twenty_twenty_one_supports_js' );
 /**
  * Changes comment form default fields.
  *
+<<<<<<< HEAD
  * @since Twenty Twenty-One 1.0
+=======
+ * @since 1.0.0
+>>>>>>> d2abd2740ea4aab8917df17b6b75b072dcae6a69
  *
  * @param array $defaults The form defaults.
  *
@@ -101,7 +125,11 @@ add_filter( 'comment_form_defaults', 'twenty_twenty_one_comment_form_defaults' )
 /**
  * Determines if post thumbnail can be displayed.
  *
+<<<<<<< HEAD
  * @since Twenty Twenty-One 1.0
+=======
+ * @since 1.0.0
+>>>>>>> d2abd2740ea4aab8917df17b6b75b072dcae6a69
  *
  * @return bool
  */
@@ -115,7 +143,11 @@ function twenty_twenty_one_can_show_post_thumbnail() {
 /**
  * Returns the size for avatars used in the theme.
  *
+<<<<<<< HEAD
  * @since Twenty Twenty-One 1.0
+=======
+ * @since 1.0.0
+>>>>>>> d2abd2740ea4aab8917df17b6b75b072dcae6a69
  *
  * @return int
  */
@@ -164,7 +196,11 @@ if ( ! function_exists( 'twenty_twenty_one_post_title' ) ) {
 	/**
 	 * Add a title to posts and pages that are missing titles.
 	 *
+<<<<<<< HEAD
 	 * @since Twenty Twenty-One 1.0
+=======
+	 * @since 1.0.0
+>>>>>>> d2abd2740ea4aab8917df17b6b75b072dcae6a69
 	 *
 	 * @param string $title The title.
 	 *
@@ -179,7 +215,11 @@ add_filter( 'the_title', 'twenty_twenty_one_post_title' );
 /**
  * Gets the SVG code for a given icon.
  *
+<<<<<<< HEAD
  * @since Twenty Twenty-One 1.0
+=======
+ * @since 1.0.0
+>>>>>>> d2abd2740ea4aab8917df17b6b75b072dcae6a69
  *
  * @param string $group The icon group.
  * @param string $icon The icon.
@@ -323,7 +363,11 @@ function twenty_twenty_one_get_non_latin_css( $type = 'front-end' ) {
 /**
  * Print the first instance of a block in the content, and then break away.
  *
+<<<<<<< HEAD
  * @since Twenty Twenty-One 1.0
+=======
+ * @since 1.0.0
+>>>>>>> d2abd2740ea4aab8917df17b6b75b072dcae6a69
  *
  * @param string      $block_name The full block type name, or a partial match.
  *                                Example: `core/image`, `core-embed/*`.
@@ -386,7 +430,11 @@ function twenty_twenty_one_print_first_instance_of_block( $block_name, $content 
 /**
  * Retrieve protected post password form content.
  *
+<<<<<<< HEAD
  * @since Twenty Twenty-One 1.0
+=======
+ * @since 1.0.0
+>>>>>>> d2abd2740ea4aab8917df17b6b75b072dcae6a69
  *
  * @param int|WP_Post $post Optional. Post ID or WP_Post object. Default is global $post.
  * @return string HTML content for password form for password protected post.
@@ -405,7 +453,11 @@ add_filter( 'the_password_form', 'twenty_twenty_one_password_form' );
 /**
  * Filters the list of attachment image attributes.
  *
+<<<<<<< HEAD
  * @since Twenty Twenty-One 1.0
+=======
+ * @since 1.0.0
+>>>>>>> d2abd2740ea4aab8917df17b6b75b072dcae6a69
  *
  * @param array        $attr       Array of attribute values for the image markup, keyed by attribute name.
  *                                 See wp_get_attachment_image().

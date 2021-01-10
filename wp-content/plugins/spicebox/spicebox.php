@@ -3,7 +3,11 @@
 Plugin Name: SpiceBox
 Plugin URI:
 Description: Enhances SpiceThemes with extra functionality.
+<<<<<<< HEAD
 Version: 1.3.2
+=======
+Version: 1.3.1
+>>>>>>> d2abd2740ea4aab8917df17b6b75b072dcae6a69
 Author: Spicethemes
 Author URI: https://spicethemes.com
 Text Domain: spicebox
@@ -30,7 +34,11 @@ function spiceb_activate() {
 		
 	}
 
+<<<<<<< HEAD
 	if ( 'HoneyPress' == $theme->name || 'HoneyPress Child' == $theme->name || 'Radix Multipurpose' == $theme->name || 'HoneyWaves' == $theme->name || 'Bizhunt' == $theme->name || 'Tromas' == $theme->name || 'HoneyBee' == $theme->name ){
+=======
+	if ( 'HoneyPress' == $theme->name || 'HoneyPress Child' == $theme->name || 'Radix Multipurpose' == $theme->name || 'HoneyWaves' == $theme->name || 'Bizhunt' == $theme->name || 'Tromas' == $theme->name){
+>>>>>>> d2abd2740ea4aab8917df17b6b75b072dcae6a69
 		require_once('inc/honeypress/features/feature-slider-section.php');
 		require_once('inc/honeypress/features/feature-service-section.php');
 		require_once('inc/honeypress/features/feature-testimonial-section.php');
@@ -170,7 +178,11 @@ $item_details_page = get_option('item_details_page');
 
 
 //Honeypress
+<<<<<<< HEAD
 if ( 'HoneyPress' == $theme->name || 'HoneyPress Child' == $theme->name || 'Radix Multipurpose' == $theme->name || 'HoneyWaves' == $theme->name || 'Bizhunt' == $theme->name || 'Tromas' == $theme->name || 'HoneyBee' == $theme->name ){	
+=======
+if ( 'HoneyPress' == $theme->name || 'HoneyPress Child' == $theme->name || 'Radix Multipurpose' == $theme->name || 'HoneyWaves' == $theme->name || 'Bizhunt' == $theme->name || 'Tromas' == $theme->name){	
+>>>>>>> d2abd2740ea4aab8917df17b6b75b072dcae6a69
 register_activation_hook( __FILE__, 'spiceb_install_function');
 function spiceb_install_function()
 {	

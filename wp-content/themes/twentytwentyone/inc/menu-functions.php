@@ -9,14 +9,22 @@
  *
  * @package WordPress
  * @subpackage Twenty_Twenty_One
+<<<<<<< HEAD
  * @since Twenty Twenty-One 1.0
+=======
+ * @since 1.0.0
+>>>>>>> d2abd2740ea4aab8917df17b6b75b072dcae6a69
  */
 
 /**
  * Add a button to top-level menu items that has sub-menus.
  * An icon is added using CSS depending on the value of aria-expanded.
  *
+<<<<<<< HEAD
  * @since Twenty Twenty-One 1.0
+=======
+ * @since 1.0.0
+>>>>>>> d2abd2740ea4aab8917df17b6b75b072dcae6a69
  *
  * @param string $output Nav menu item start element.
  * @param object $item   Nav menu item.
@@ -42,7 +50,11 @@ add_filter( 'walker_nav_menu_start_el', 'twenty_twenty_one_add_sub_menu_toggle',
 /**
  * Detects the social network from a URL and returns the SVG code for its icon.
  *
+<<<<<<< HEAD
  * @since Twenty Twenty-One 1.0
+=======
+ * @since 1.0.0
+>>>>>>> d2abd2740ea4aab8917df17b6b75b072dcae6a69
  *
  * @param string $uri Social link.
  * @param int    $size The icon size in pixels.
@@ -79,7 +91,11 @@ add_filter( 'walker_nav_menu_start_el', 'twenty_twenty_one_nav_menu_social_icons
 /**
  * Filters the arguments for a single nav menu item.
  *
+<<<<<<< HEAD
  * @since Twenty Twenty-One 1.0
+=======
+ * @since 1.0.0
+>>>>>>> d2abd2740ea4aab8917df17b6b75b072dcae6a69
  *
  * @param stdClass $args  An object of wp_nav_menu() arguments.
  * @param WP_Post  $item  Menu item data object.

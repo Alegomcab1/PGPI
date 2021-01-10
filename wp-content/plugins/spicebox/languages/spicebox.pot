@@ -4,7 +4,11 @@ msgstr ""
 "Project-Id-Version: "
 "Spiceboxv1.0.0\n"
 "POT-Creation-Date: "
+<<<<<<< HEAD
 "2020-11-07 18:11+0530\n"
+=======
+"2020-10-12 11:57+0530\n"
+>>>>>>> d2abd2740ea4aab8917df17b6b75b072dcae6a69
 "PO-Revision-Date: \n"
 "Last-Translator: Your "
 "Name <you@example.com>\n"
@@ -137,9 +141,15 @@ msgstr ""
 #: inc/controls/customizer-repeater/class/customizer-repeater-control.php:253
 #: inc/controls/customizer-repeater/class/customizer-repeater-control.php:402
 #: inc/honeypress/features/feature-service-section.php:33
+<<<<<<< HEAD
 #: inc/honeypress/features/feature-slider-section.php:99
 #: inc/honeypress/features/feature-testimonial-section.php:84
 #: inc/honeypress/features/feature-testimonial-section.php:155
+=======
+#: inc/honeypress/features/feature-slider-section.php:96
+#: inc/honeypress/features/feature-testimonial-section.php:78
+#: inc/honeypress/features/feature-testimonial-section.php:135
+>>>>>>> d2abd2740ea4aab8917df17b6b75b072dcae6a69
 #: inc/innofit/customizer/callout-section.php:29
 #: inc/innofit/customizer/news-section.php:30
 #: inc/innofit/customizer/services-section.php:31
@@ -185,8 +195,13 @@ msgstr ""
 #: inc/cloudpress/features/feature-cta-section.php:65
 #: inc/cloudpress/features/feature-slider-section.php:109
 #: inc/cloudpress/features/feature-slider-section.php:146
+<<<<<<< HEAD
 #: inc/honeypress/features/feature-slider-section.php:131
 #: inc/honeypress/features/feature-slider-section.php:168
+=======
+#: inc/honeypress/features/feature-slider-section.php:128
+#: inc/honeypress/features/feature-slider-section.php:165
+>>>>>>> d2abd2740ea4aab8917df17b6b75b072dcae6a69
 #: inc/innofit/customizer/callout-section.php:68
 #: inc/innofit/customizer/slider-section.php:105
 #: inc/spicepress/features/feature-slider-section.php:108
@@ -195,7 +210,11 @@ msgstr ""
 
 #: inc/cloudpress/features/feature-cta-section.php:70
 #: inc/cloudpress/features/feature-slider-section.php:114
+<<<<<<< HEAD
 #: inc/honeypress/features/feature-slider-section.php:136
+=======
+#: inc/honeypress/features/feature-slider-section.php:133
+>>>>>>> d2abd2740ea4aab8917df17b6b75b072dcae6a69
 #: inc/innofit/customizer/callout-section.php:74
 #: inc/innofit/customizer/slider-section.php:110
 #: inc/spicepress/features/feature-slider-section.php:113
@@ -269,9 +288,15 @@ msgstr ""
 #: inc/controls/customizer-repeater/class/customizer-repeater-control.php:267
 #: inc/controls/customizer-repeater/class/customizer-repeater-control.php:416
 #: inc/honeypress/features/feature-service-section.php:46
+<<<<<<< HEAD
 #: inc/honeypress/features/feature-slider-section.php:111
 #: inc/honeypress/features/feature-testimonial-section.php:97
 #: inc/honeypress/features/feature-testimonial-section.php:142
+=======
+#: inc/honeypress/features/feature-slider-section.php:108
+#: inc/honeypress/features/feature-testimonial-section.php:91
+#: inc/honeypress/features/feature-testimonial-section.php:122
+>>>>>>> d2abd2740ea4aab8917df17b6b75b072dcae6a69
 #: inc/innofit/customizer/callout-section.php:41
 #: inc/innofit/customizer/news-section.php:42
 #: inc/innofit/customizer/services-section.php:46
@@ -334,8 +359,13 @@ msgstr ""
 #: inc/cloudpress/features/feature-slider-section.php:35
 #: inc/controls/customizer-repeater/class/customizer-repeater-control.php:554
 #: inc/controls/customizer-repeater/class/customizer-repeater-control.php:600
+<<<<<<< HEAD
 #: inc/honeypress/features/feature-slider-section.php:58
 #: inc/honeypress/features/feature-testimonial-section.php:125
+=======
+#: inc/honeypress/features/feature-slider-section.php:55
+#: inc/honeypress/features/feature-testimonial-section.php:105
+>>>>>>> d2abd2740ea4aab8917df17b6b75b072dcae6a69
 #: inc/innofit/customizer/about-section.php:73
 #: inc/innofit/customizer/slider-section.php:32
 #: inc/spicepress/features/feature-portfolio-section.php:59
@@ -347,7 +377,11 @@ msgid "Image"
 msgstr ""
 
 #: inc/cloudpress/features/feature-slider-section.php:50
+<<<<<<< HEAD
 #: inc/honeypress/features/feature-slider-section.php:72
+=======
+#: inc/honeypress/features/feature-slider-section.php:69
+>>>>>>> d2abd2740ea4aab8917df17b6b75b072dcae6a69
 #: inc/innofit/customizer/slider-section.php:47
 #: inc/spicepress/features/feature-slider-section.php:50
 msgid ""
@@ -356,7 +390,11 @@ msgid ""
 msgstr ""
 
 #: inc/cloudpress/features/feature-slider-section.php:63
+<<<<<<< HEAD
 #: inc/honeypress/features/feature-slider-section.php:85
+=======
+#: inc/honeypress/features/feature-slider-section.php:82
+>>>>>>> d2abd2740ea4aab8917df17b6b75b072dcae6a69
 #: inc/innofit/customizer/slider-section.php:60
 #: inc/spicepress/features/feature-slider-section.php:63
 msgid ""
@@ -372,7 +410,11 @@ msgid ""
 msgstr ""
 
 #: inc/cloudpress/features/feature-slider-section.php:84
+<<<<<<< HEAD
 #: inc/honeypress/features/feature-slider-section.php:106
+=======
+#: inc/honeypress/features/feature-slider-section.php:103
+>>>>>>> d2abd2740ea4aab8917df17b6b75b072dcae6a69
 msgid ""
 "Sea summo mazim ex, ea "
 "errem eleifend "
@@ -391,7 +433,11 @@ msgstr ""
 #: inc/cloudpress/features/feature-slider-section.php:102
 #: inc/controls/customizer-repeater/class/customizer-repeater-control.php:276
 #: inc/controls/customizer-repeater/class/customizer-repeater-control.php:424
+<<<<<<< HEAD
 #: inc/honeypress/features/feature-slider-section.php:124
+=======
+#: inc/honeypress/features/feature-slider-section.php:121
+>>>>>>> d2abd2740ea4aab8917df17b6b75b072dcae6a69
 #: inc/innofit/customizer/callout-section.php:60
 #: inc/innofit/customizer/slider-section.php:98
 #: inc/spicepress/features/feature-slider-section.php:101
@@ -400,8 +446,13 @@ msgstr ""
 
 #: inc/cloudpress/features/feature-slider-section.php:127
 #: inc/cloudpress/features/feature-slider-section.php:164
+<<<<<<< HEAD
 #: inc/honeypress/features/feature-slider-section.php:149
 #: inc/honeypress/features/feature-slider-section.php:186
+=======
+#: inc/honeypress/features/feature-slider-section.php:146
+#: inc/honeypress/features/feature-slider-section.php:183
+>>>>>>> d2abd2740ea4aab8917df17b6b75b072dcae6a69
 #: inc/innofit/customizer/callout-section.php:90
 #: inc/innofit/customizer/slider-section.php:123
 #: inc/spicepress/features/feature-slider-section.php:126
@@ -415,12 +466,20 @@ msgid "About Us"
 msgstr ""
 
 #: inc/cloudpress/features/feature-slider-section.php:139
+<<<<<<< HEAD
 #: inc/honeypress/features/feature-slider-section.php:161
+=======
+#: inc/honeypress/features/feature-slider-section.php:158
+>>>>>>> d2abd2740ea4aab8917df17b6b75b072dcae6a69
 msgid "Button 2 Text"
 msgstr ""
 
 #: inc/cloudpress/features/feature-slider-section.php:151
+<<<<<<< HEAD
 #: inc/honeypress/features/feature-slider-section.php:173
+=======
+#: inc/honeypress/features/feature-slider-section.php:170
+>>>>>>> d2abd2740ea4aab8917df17b6b75b072dcae6a69
 msgid "Button 2 Link"
 msgstr ""
 
@@ -467,7 +526,11 @@ msgid "Powerful Options"
 msgstr ""
 
 #: inc/cloudpress/sections/cloudpress-slider-section.php:12
+<<<<<<< HEAD
 #: inc/honeypress/sections/honeypress-slider-section.php:25
+=======
+#: inc/honeypress/sections/honeypress-slider-section.php:23
+>>>>>>> d2abd2740ea4aab8917df17b6b75b072dcae6a69
 msgid ""
 "Sea summo mazim ex, ea "
 "errem eleifend "
@@ -514,7 +577,11 @@ msgstr ""
 
 #: inc/controls/customizer-repeater/class/customizer-repeater-control.php:348
 #: inc/controls/customizer-repeater/class/customizer-repeater-control.php:472
+<<<<<<< HEAD
 #: inc/honeypress/features/feature-testimonial-section.php:167
+=======
+#: inc/honeypress/features/feature-testimonial-section.php:147
+>>>>>>> d2abd2740ea4aab8917df17b6b75b072dcae6a69
 #: inc/spicepress/features/feature-testimonial-section.php:141
 msgid "Designation"
 msgstr ""
@@ -667,22 +734,36 @@ msgid ""
 msgstr ""
 
 #: inc/honeypress/features/feature-service-section.php:28
+<<<<<<< HEAD
 #: inc/honeypress/sections/honeypress-service-section.php:23
+=======
+#: inc/honeypress/sections/honeypress-service-section.php:21
+>>>>>>> d2abd2740ea4aab8917df17b6b75b072dcae6a69
 msgid "Etiam et Urna?"
 msgstr ""
 
 #: inc/honeypress/features/feature-service-section.php:41
+<<<<<<< HEAD
 #: inc/honeypress/sections/honeypress-service-section.php:24
 msgid "Fusce Sed Massa"
 msgstr ""
 
 #: inc/honeypress/features/feature-slider-section.php:93
 #: inc/honeypress/sections/honeypress-slider-section.php:23
+=======
+#: inc/honeypress/sections/honeypress-service-section.php:22
+msgid "Fusce Sed Massa"
+msgstr ""
+
+#: inc/honeypress/features/feature-slider-section.php:90
+#: inc/honeypress/sections/honeypress-slider-section.php:21
+>>>>>>> d2abd2740ea4aab8917df17b6b75b072dcae6a69
 msgid ""
 "Nulla nec dolor sit amet "
 "lacus molestie"
 msgstr ""
 
+<<<<<<< HEAD
 #: inc/honeypress/features/feature-slider-section.php:119
 #: inc/honeypress/sections/honeypress-slider-section.php:26
 msgid "Nec Sem"
@@ -693,6 +774,18 @@ msgstr ""
 #: inc/honeypress/sections/honeypress-slider-section.php:30
 #: inc/honeypress/sections/honeypress-testimonail-section.php:39
 #: inc/honeypress/sections/honeypress-testimonail-section.php:81
+=======
+#: inc/honeypress/features/feature-slider-section.php:116
+#: inc/honeypress/sections/honeypress-slider-section.php:24
+msgid "Nec Sem"
+msgstr ""
+
+#: inc/honeypress/features/feature-slider-section.php:153
+#: inc/honeypress/features/feature-testimonial-section.php:130
+#: inc/honeypress/sections/honeypress-slider-section.php:28
+#: inc/honeypress/sections/honeypress-testimonail-section.php:31
+#: inc/honeypress/sections/honeypress-testimonail-section.php:73
+>>>>>>> d2abd2740ea4aab8917df17b6b75b072dcae6a69
 msgid "Cras Vitae"
 msgstr ""
 
@@ -710,6 +803,7 @@ msgid ""
 "section"
 msgstr ""
 
+<<<<<<< HEAD
 #: inc/honeypress/features/feature-testimonial-section.php:71
 msgid "Background Color"
 msgstr ""
@@ -721,14 +815,33 @@ msgstr ""
 
 #: inc/honeypress/features/feature-testimonial-section.php:92
 #: inc/honeypress/sections/honeypress-testimonail-section.php:38
+=======
+#: inc/honeypress/features/feature-testimonial-section.php:65
+msgid "Background Color"
+msgstr ""
+
+#: inc/honeypress/features/feature-testimonial-section.php:73
+#: inc/honeypress/sections/honeypress-testimonail-section.php:29
+msgid "Proin Egestas"
+msgstr ""
+
+#: inc/honeypress/features/feature-testimonial-section.php:86
+#: inc/honeypress/sections/honeypress-testimonail-section.php:30
+>>>>>>> d2abd2740ea4aab8917df17b6b75b072dcae6a69
 msgid ""
 "Nam Viverra Iaculis "
 "Finibus"
 msgstr ""
 
+<<<<<<< HEAD
 #: inc/honeypress/features/feature-testimonial-section.php:137
 #: inc/honeypress/sections/honeypress-testimonail-section.php:42
 #: inc/honeypress/sections/honeypress-testimonail-section.php:89
+=======
+#: inc/honeypress/features/feature-testimonial-section.php:117
+#: inc/honeypress/sections/honeypress-testimonail-section.php:34
+#: inc/honeypress/sections/honeypress-testimonail-section.php:76
+>>>>>>> d2abd2740ea4aab8917df17b6b75b072dcae6a69
 #: inc/spicepress/features/feature-testimonial-section.php:109
 #: inc/spicepress/sections/spicepress-testimonail-section.php:46
 #: inc/spicepress/sections/spicepress-testimonail-section.php:123
@@ -750,6 +863,7 @@ msgid ""
 "pariatur."
 msgstr ""
 
+<<<<<<< HEAD
 #: inc/honeypress/features/feature-testimonial-section.php:162
 #: inc/honeypress/sections/honeypress-testimonail-section.php:40
 #: inc/honeypress/sections/honeypress-testimonail-section.php:82
@@ -757,15 +871,32 @@ msgid "Eu Suscipit"
 msgstr ""
 
 #: inc/honeypress/sections/honeypress-service-section.php:195
+=======
+#: inc/honeypress/features/feature-testimonial-section.php:142
+#: inc/honeypress/sections/honeypress-testimonail-section.php:32
+#: inc/honeypress/sections/honeypress-testimonail-section.php:74
+msgid "Eu Suscipit"
+msgstr ""
+
+#: inc/honeypress/sections/honeypress-service-section.php:193
+>>>>>>> d2abd2740ea4aab8917df17b6b75b072dcae6a69
 msgid ""
 "Suspendisse Tristique"
 msgstr ""
 
+<<<<<<< HEAD
 #: inc/honeypress/sections/honeypress-service-section.php:203
 msgid "Blandit-Gravida"
 msgstr ""
 
 #: inc/honeypress/sections/honeypress-service-section.php:211
+=======
+#: inc/honeypress/sections/honeypress-service-section.php:201
+msgid "Blandit-Gravida"
+msgstr ""
+
+#: inc/honeypress/sections/honeypress-service-section.php:209
+>>>>>>> d2abd2740ea4aab8917df17b6b75b072dcae6a69
 msgid "Justo Bibendum"
 msgstr ""
 

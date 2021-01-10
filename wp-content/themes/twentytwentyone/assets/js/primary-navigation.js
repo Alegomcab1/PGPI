@@ -9,7 +9,11 @@
  *
  * @param {Element} el - The element.
  * @param {boolean} withListeners - Whether we want to add/remove listeners or not.
+<<<<<<< HEAD
  * @since Twenty Twenty-One 1.0
+=======
+ * @since 1.0.0
+>>>>>>> d2abd2740ea4aab8917df17b6b75b072dcae6a69
  */
 function twentytwentyoneToggleAriaExpanded( el, withListeners ) {
 	if ( 'true' !== el.getAttribute( 'aria-expanded' ) ) {
@@ -150,6 +154,7 @@ function twentytwentyoneExpandSubMenu( el ) { // jshint ignore:line
 			}
 		} );
 
+<<<<<<< HEAD
 		/**
 		 * Close menu and scroll to anchor when an anchor link is clicked.
 		 * Adapted from TwentyTwenty.
@@ -167,6 +172,8 @@ function twentytwentyoneExpandSubMenu( el ) { // jshint ignore:line
 			}
 		} );
 
+=======
+>>>>>>> d2abd2740ea4aab8917df17b6b75b072dcae6a69
 		document.getElementById( 'site-navigation' ).querySelectorAll( '.menu-wrapper > .menu-item-has-children' ).forEach( function( li ) {
 			li.addEventListener( 'mouseenter', function() {
 				this.querySelector( '.sub-menu-toggle' ).setAttribute( 'aria-expanded', 'true' );

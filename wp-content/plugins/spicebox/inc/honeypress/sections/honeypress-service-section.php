@@ -14,8 +14,11 @@ if (!function_exists('spiceb_honeypress_service')) :
             $service_variant_class = 'section-module services2 service_wrapper';
         } elseif ($theme->name == 'Tromas') {
             $service_variant_class = 'section-module services5 service_wrapper';
+<<<<<<< HEAD
         } elseif ($theme->name == 'HoneyBee') {
             $service_variant_class = 'section-module services7';
+=======
+>>>>>>> d2abd2740ea4aab8917df17b6b75b072dcae6a69
         } else {
             $service_variant_class = 'section-module services';
         }
