@@ -1,0 +1,110 @@
+2021-01-06T12:16:33+00:00 CRITICAL Uncaught TypeError: json_decode(): Argument #1 ($json) must be of type string, array given in E:\xampp\htdocs\wordpress\wp-content\plugins\custom-registration-form-builder-with-submission-manager\public\controllers\class_rm_login_controller.php:169
+Stack trace:
+#0 E:\xampp\htdocs\wordpress\wp-content\plugins\custom-registration-form-builder-with-submission-manager\public\controllers\class_rm_login_controller.php(169): json_decode(Array, true)
+#1 E:\xampp\htdocs\wordpress\wp-content\plugins\custom-registration-form-builder-with-submission-manager\includes\class_rm_main_controller.php(136): RM_Login_Controller->form(NULL, Object(RM_User_Services), Object(RM_Request), Array)
+#2 E:\xampp\htdocs\wordpress\wp-content\plugins\custom-registration-form-builder-with-submission-manager\public\class_rm_public.php(233): RM_Main_Controller->run()
+#3 E:\xampp\htdocs\wordpress\wp-includes\shortcodes.php(343): RM_Public->rm_login('', '', 'RM_Login')
+#4 [internal function]: do_shortcode_tag(Array)
+#5 E:\xampp\htdocs\wordpress\wp-includes\shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(RM_Log...', 'do_shortcode_ta...', '[RM_Login]\n')
+#6 E:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(287): do_shortcode('[RM_Login]\n')
+#7 E:\xampp\htdocs\wordpress\wp-includes\plugin.php(212): WP_Hook->apply_filters('[RM_Login]\n', Array)
+#8 E:\xampp\htdocs\wordpress\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php(1722): apply_filters('the_content', '[RM_Login]')
+#9 E:\xampp\htdocs\wordpress\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php(505): WP_REST_Posts_Controller->prepare_item_for_response(Object(WP_Post), Object(WP_REST_Request))
+#10 E:\xampp\htdocs\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1160): WP_REST_Posts_Controller->get_item(Object(WP_REST_Request))
+#11 E:\xampp\htdocs\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1007): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/pages/(?...', Array, NULL)
+#12 E:\xampp\htdocs\wordpress\wp-includes\rest-api.php(479): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#13 E:\xampp\htdocs\wordpress\wp-includes\rest-api.php(2520): rest_do_request(Object(WP_REST_Request))
+#14 [internal function]: rest_preload_api_request(Array, '/wp/v2/pages/12...')
+#15 E:\xampp\htdocs\wordpress\wp-admin\edit-form-blocks.php(82): array_reduce(Array, 'rest_preload_ap...', Array)
+#16 E:\xampp\htdocs\wordpress\wp-admin\post.php(187): require('E:\\xampp\\htdocs...')
+#17 {main}
+  thrown en E:\xampp\htdocs\wordpress\wp-content\plugins\custom-registration-form-builder-with-submission-manager\public\controllers\class_rm_login_controller.php en la línea 169
+
+2021-01-06T12:16:40+00:00 CRITICAL Uncaught TypeError: json_decode(): Argument #1 ($json) must be of type string, array given in E:\xampp\htdocs\wordpress\wp-content\plugins\custom-registration-form-builder-with-submission-manager\public\controllers\class_rm_login_controller.php:169
+Stack trace:
+#0 E:\xampp\htdocs\wordpress\wp-content\plugins\custom-registration-form-builder-with-submission-manager\public\controllers\class_rm_login_controller.php(169): json_decode(Array, true)
+#1 E:\xampp\htdocs\wordpress\wp-content\plugins\custom-registration-form-builder-with-submission-manager\includes\class_rm_main_controller.php(136): RM_Login_Controller->form(NULL, Object(RM_User_Services), Object(RM_Request), Array)
+#2 E:\xampp\htdocs\wordpress\wp-content\plugins\custom-registration-form-builder-with-submission-manager\public\class_rm_public.php(233): RM_Main_Controller->run()
+#3 E:\xampp\htdocs\wordpress\wp-includes\shortcodes.php(343): RM_Public->rm_login('', '', 'RM_Login')
+#4 [internal function]: do_shortcode_tag(Array)
+#5 E:\xampp\htdocs\wordpress\wp-includes\shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(RM_Log...', 'do_shortcode_ta...', '[RM_Login]\n')
+#6 E:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(287): do_shortcode('[RM_Login]\n')
+#7 E:\xampp\htdocs\wordpress\wp-includes\plugin.php(212): WP_Hook->apply_filters('[RM_Login]\n', Array)
+#8 E:\xampp\htdocs\wordpress\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php(1722): apply_filters('the_content', '[RM_Login]')
+#9 E:\xampp\htdocs\wordpress\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php(505): WP_REST_Posts_Controller->prepare_item_for_response(Object(WP_Post), Object(WP_REST_Request))
+#10 E:\xampp\htdocs\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1160): WP_REST_Posts_Controller->get_item(Object(WP_REST_Request))
+#11 E:\xampp\htdocs\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1007): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/pages/(?...', Array, NULL)
+#12 E:\xampp\htdocs\wordpress\wp-includes\rest-api.php(479): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#13 E:\xampp\htdocs\wordpress\wp-includes\rest-api.php(2520): rest_do_request(Object(WP_REST_Request))
+#14 [internal function]: rest_preload_api_request(Array, '/wp/v2/pages/12...')
+#15 E:\xampp\htdocs\wordpress\wp-admin\edit-form-blocks.php(82): array_reduce(Array, 'rest_preload_ap...', Array)
+#16 E:\xampp\htdocs\wordpress\wp-admin\post.php(187): require('E:\\xampp\\htdocs...')
+#17 {main}
+  thrown en E:\xampp\htdocs\wordpress\wp-content\plugins\custom-registration-form-builder-with-submission-manager\public\controllers\class_rm_login_controller.php en la línea 169
+
+2021-01-06T12:20:24+00:00 CRITICAL Uncaught TypeError: json_decode(): Argument #1 ($json) must be of type string, array given in E:\xampp\htdocs\wordpress\wp-content\plugins\custom-registration-form-builder-with-submission-manager\admin\controllers\class_rm_login_manage_controller.php:25
+Stack trace:
+#0 E:\xampp\htdocs\wordpress\wp-content\plugins\custom-registration-form-builder-with-submission-manager\admin\controllers\class_rm_login_manage_controller.php(25): json_decode(Array, true)
+#1 E:\xampp\htdocs\wordpress\wp-content\plugins\custom-registration-form-builder-with-submission-manager\includes\class_rm_main_controller.php(136): RM_Login_Manage_Controller->manage(Object(RM_Login_Fields), Object(RM_Login_Service), Object(RM_Request), Array)
+#2 E:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(287): RM_Main_Controller->run('')
+#3 E:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#4 E:\xampp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#5 E:\xampp\htdocs\wordpress\wp-admin\admin.php(259): do_action('admin_page_rm_l...')
+#6 {main}
+  thrown en E:\xampp\htdocs\wordpress\wp-content\plugins\custom-registration-form-builder-with-submission-manager\admin\controllers\class_rm_login_manage_controller.php en la línea 25
+
+2021-01-06T12:24:43+00:00 CRITICAL Uncaught TypeError: abs(): Argument #1 ($num) must be of type int|float, string given in E:\xampp\htdocs\wordpress\wp-content\plugins\loginpress\classes\class-loginpress-settings-api.php:505
+Stack trace:
+#0 E:\xampp\htdocs\wordpress\wp-content\plugins\loginpress\classes\class-loginpress-settings-api.php(505): abs('')
+#1 E:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(289): LoginPress_Settings_API->sanitize_options(Array)
+#2 E:\xampp\htdocs\wordpress\wp-includes\plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#3 E:\xampp\htdocs\wordpress\wp-includes\formatting.php(4906): apply_filters('sanitize_option...', Array, 'loginpress_sett...', Array)
+#4 E:\xampp\htdocs\wordpress\wp-includes\option.php(369): sanitize_option('loginpress_sett...', Array)
+#5 E:\xampp\htdocs\wordpress\wp-admin\options.php(314): update_option('loginpress_sett...', Array)
+#6 {main}
+  thrown en E:\xampp\htdocs\wordpress\wp-content\plugins\loginpress\classes\class-loginpress-settings-api.php en la línea 505
+
+2021-01-06T12:32:11+00:00 CRITICAL Uncaught TypeError: abs(): Argument #1 ($num) must be of type int|float, string given in E:\xampp\htdocs\wordpress\wp-content\plugins\loginpress\classes\class-loginpress-settings-api.php:505
+Stack trace:
+#0 E:\xampp\htdocs\wordpress\wp-content\plugins\loginpress\classes\class-loginpress-settings-api.php(505): abs('')
+#1 E:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(289): LoginPress_Settings_API->sanitize_options(Array)
+#2 E:\xampp\htdocs\wordpress\wp-includes\plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#3 E:\xampp\htdocs\wordpress\wp-includes\formatting.php(4906): apply_filters('sanitize_option...', Array, 'loginpress_sett...', Array)
+#4 E:\xampp\htdocs\wordpress\wp-includes\option.php(369): sanitize_option('loginpress_sett...', Array)
+#5 E:\xampp\htdocs\wordpress\wp-admin\options.php(314): update_option('loginpress_sett...', Array)
+#6 {main}
+  thrown en E:\xampp\htdocs\wordpress\wp-content\plugins\loginpress\classes\class-loginpress-settings-api.php en la línea 505
+
+2021-01-06T12:32:15+00:00 CRITICAL Uncaught TypeError: abs(): Argument #1 ($num) must be of type int|float, string given in E:\xampp\htdocs\wordpress\wp-content\plugins\loginpress\classes\class-loginpress-settings-api.php:505
+Stack trace:
+#0 E:\xampp\htdocs\wordpress\wp-content\plugins\loginpress\classes\class-loginpress-settings-api.php(505): abs('')
+#1 E:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(289): LoginPress_Settings_API->sanitize_options(Array)
+#2 E:\xampp\htdocs\wordpress\wp-includes\plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#3 E:\xampp\htdocs\wordpress\wp-includes\formatting.php(4906): apply_filters('sanitize_option...', Array, 'loginpress_sett...', Array)
+#4 E:\xampp\htdocs\wordpress\wp-includes\option.php(369): sanitize_option('loginpress_sett...', Array)
+#5 E:\xampp\htdocs\wordpress\wp-admin\options.php(314): update_option('loginpress_sett...', Array)
+#6 {main}
+  thrown en E:\xampp\htdocs\wordpress\wp-content\plugins\loginpress\classes\class-loginpress-settings-api.php en la línea 505
+
+2021-01-06T12:32:53+00:00 CRITICAL Uncaught TypeError: abs(): Argument #1 ($num) must be of type int|float, string given in E:\xampp\htdocs\wordpress\wp-content\plugins\loginpress\classes\class-loginpress-settings-api.php:505
+Stack trace:
+#0 E:\xampp\htdocs\wordpress\wp-content\plugins\loginpress\classes\class-loginpress-settings-api.php(505): abs('')
+#1 E:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(289): LoginPress_Settings_API->sanitize_options(Array)
+#2 E:\xampp\htdocs\wordpress\wp-includes\plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#3 E:\xampp\htdocs\wordpress\wp-includes\formatting.php(4906): apply_filters('sanitize_option...', Array, 'loginpress_sett...', Array)
+#4 E:\xampp\htdocs\wordpress\wp-includes\option.php(369): sanitize_option('loginpress_sett...', Array)
+#5 E:\xampp\htdocs\wordpress\wp-admin\options.php(314): update_option('loginpress_sett...', Array)
+#6 {main}
+  thrown en E:\xampp\htdocs\wordpress\wp-content\plugins\loginpress\classes\class-loginpress-settings-api.php en la línea 505
+
+2021-01-06T12:32:59+00:00 CRITICAL Uncaught TypeError: abs(): Argument #1 ($num) must be of type int|float, string given in E:\xampp\htdocs\wordpress\wp-content\plugins\loginpress\classes\class-loginpress-settings-api.php:505
+Stack trace:
+#0 E:\xampp\htdocs\wordpress\wp-content\plugins\loginpress\classes\class-loginpress-settings-api.php(505): abs('')
+#1 E:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(289): LoginPress_Settings_API->sanitize_options(Array)
+#2 E:\xampp\htdocs\wordpress\wp-includes\plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#3 E:\xampp\htdocs\wordpress\wp-includes\formatting.php(4906): apply_filters('sanitize_option...', Array, 'loginpress_sett...', Array)
+#4 E:\xampp\htdocs\wordpress\wp-includes\option.php(369): sanitize_option('loginpress_sett...', Array)
+#5 E:\xampp\htdocs\wordpress\wp-admin\options.php(314): update_option('loginpress_sett...', Array)
+#6 {main}
+  thrown en E:\xampp\htdocs\wordpress\wp-content\plugins\loginpress\classes\class-loginpress-settings-api.php en la línea 505
+

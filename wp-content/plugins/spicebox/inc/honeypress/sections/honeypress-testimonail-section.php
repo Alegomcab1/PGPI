@@ -11,19 +11,27 @@ if (!function_exists('spiceb_honeypress_testimonial')) :
             $theme = wp_get_theme();
             if ($theme->name == 'HoneyPress') {
                 $testimonial_overlay_section_color = get_theme_mod('testimonial_overlay_section_color', 'rgba(0, 76, 236, 0.9)');
+                $testimonial_section_class="section-module testimonial";
             } elseif ($theme->name == 'Radix Multipurpose') {
                 $testimonial_overlay_section_color = get_theme_mod('testimonial_overlay_section_color', 'rgba(130, 180, 64, 0.9)');
+                $testimonial_section_class="section-module testimonial";
             } elseif ($theme->name == 'Bizhunt') {
                 $testimonial_overlay_section_color = get_theme_mod('testimonial_overlay_section_color', 'rgba(105,116,234,0.9)');
+                $testimonial_section_class="section-module testimonial";
             } elseif ($theme->name == 'Tromas') {
                 $testimonial_overlay_section_color = get_theme_mod('testimonial_overlay_section_color', 'rgba(206, 27, 40,0.9)');
+                $testimonial_section_class="section-module testimonial";
             }elseif ($theme->name == 'HoneyWaves') {
                 $testimonial_overlay_section_color = get_theme_mod('testimonial_overlay_section_color', 'rgba(0, 0, 0, 0.9)');
+                $testimonial_section_class="section-module testimonial";
+            } elseif ($theme->name == 'HoneyBee') {
+                $testimonial_overlay_section_color = get_theme_mod('testimonial_overlay_section_color', 'rgba(248, 145, 8, 0.9)');
+                $testimonial_section_class="section-module testimonial7";
             } else {
                 $testimonial_overlay_section_color = get_theme_mod('testimonial_overlay_section_color', 'rgba(0, 76, 236, 0.9)');
-            }
-            ?>
-            <section class="section-module testimonial" style="background-color:<?php echo $testimonial_overlay_section_color; ?>">
+                $testimonial_section_class="section-module testimonial";
+            }?>
+            <section class="<?php echo esc_attr($testimonial_section_class);?>" style="background-color:<?php echo $testimonial_overlay_section_color; ?>;">
                 <div class="container">
                     <?php
                     $home_testimonial_section_title = get_theme_mod('home_testimonial_section_title', __('Proin Egestas', 'spicebox'));
@@ -72,10 +80,14 @@ if (!function_exists('honeypress_testimonial_variant')) :
     function honeypress_testimonial_variant() {
         $home_testimonial_title = get_theme_mod('home_testimonial_title', __('Cras Vitae', 'spicebox'));
         $home_testimonial_designation = get_theme_mod('home_testimonial_designation', __('Eu Suscipit', 'spicebox'));
-        $home_testimonial_thumb = get_theme_mod('home_testimonial_thumb', SPICEB_PLUGIN_URL . 'inc/honeypress/images/testimonial/testi1.jpg');
-        $home_testimonial_desc = get_theme_mod('home_testimonial_desc', __('Sed ut Perspiciatis Unde Omnis Iste Sed ut perspiciatis unde omnis iste natu error sit voluptatem accu tium neque fermentum veposu miten a tempor nise. Duis autem vel eum iriure dolor in hendrerit in vulputate velit consequat reprehender in voluptate velit esse cillum duis dolor fugiat nulla pariatur.', 'spicebox'));
-
         $theme = wp_get_theme();
+        if ($theme->name == 'HoneyBee') {
+           $home_testimonial_thumb = get_theme_mod('home_testimonial_thumb', SPICEB_PLUGIN_URL . 'inc/honeypress/images/testimonial/user1.jpg');
+        } else{
+            $home_testimonial_thumb = get_theme_mod('home_testimonial_thumb', SPICEB_PLUGIN_URL . 'inc/honeypress/images/testimonial/testi1.jpg');
+        }
+        $home_testimonial_desc = get_theme_mod('home_testimonial_desc', __('Sed ut Perspiciatis Unde Omnis Iste Sed ut perspiciatis unde omnis iste natu error sit voluptatem accu tium neque fermentum veposu miten a tempor nise. Duis autem vel eum iriure dolor in hendrerit in vulputate velit consequat reprehender in voluptate velit esse cillum duis dolor fugiat nulla pariatur.', 'spicebox'));
+    
         if ($theme->name == 'HoneyWaves') {
             ?>
             <div id="testimonial-carousel2" >
@@ -96,6 +108,29 @@ if (!function_exists('honeypress_testimonial_variant')) :
                     </article>
                 </div>
             </div>
+        <?php }elseif ($theme->name == 'HoneyBee') {?>
+            <div class="col-lg-12 col-md-12 col-sm-12">
+                    <article class="testmonial-block">
+                        <div class="col-lg-4 col-md-4 col-sm-12">
+                            <?php if ($home_testimonial_thumb != '') { ?>
+                            <figure class="avatar">
+                                <img src="<?php echo $home_testimonial_thumb; ?>" class="img-fluid" alt="img">
+                            </figure>
+                        <?php } ?>              
+                        </div>
+                        <div class="col-lg-8 col-md-8 col-sm-12 testimonial-text">
+                            <div class="testmonial-content">
+                                <div class="entry-content">
+                                    <p class="text-white"><?php echo $home_testimonial_desc; ?></p>
+                                </div>                                  
+                                <figcaption>
+                                    <cite class="name"><?php echo $home_testimonial_title; ?></cite>
+                                    <span class="designation"><?php echo $home_testimonial_designation; ?></span>
+                                </figcaption>
+                            </div>
+                        </div>
+                    </article>
+            </div>            
         <?php } elseif ($theme->name == 'HoneyPress') {
             ?>
             <div class="col-md-12">

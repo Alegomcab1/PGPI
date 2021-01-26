@@ -70,12 +70,18 @@ function honeypress_footer_section_hook()
       <?php get_template_part('sidebar','footer');
     endif;?>  
   </div>
-  <?php if(get_theme_mod('footer_enable',true)==true):?>
-  <div class="site-info text-center">
-     <?php $honeypress_footer_copyright = get_theme_mod('footer_copyright','<p>'. __( 'Proudly powered by <a href="https://wordpress.org"> WordPress</a> | Theme: <a href="https://spicethemes.com" rel="nofollow">HoneyPress</a> by SpiceThemes', 'honeypress' ).'</p>'); ?>  
-     <?php echo wp_kses_post($honeypress_footer_copyright);?> 
-  </div>
-<?php endif;?>
+  <?php
+  $honeypress_user=get_option('honeypress_user_before_1_3_8');
+  if($honeypress_user='old'){ ?>
+    <div class="site-info text-center">
+       <?php $honeypress_footer_copyright = get_theme_mod('footer_copyright','<p>'. __( 'Proudly powered by <a href="https://wordpress.org"> WordPress</a> | Theme: <a href="https://spicethemes.com" rel="nofollow">HoneyPress</a> by SpiceThemes', 'honeypress' ).'</p>'); ?>  
+       <?php echo wp_kses_post($honeypress_footer_copyright);?> 
+    </div>
+  <?php }else{?>
+    <div class="site-info text-center">
+         <p><?php esc_html_e( 'Proudly powered by', 'honeypress' ); ?> <a href="<?php echo esc_url( __( 'https://wordpress.org', 'honeypress' ) ); ?>"><?php esc_html_e( 'WordPress', 'honeypress' ); ?> </a> <?php esc_html_e( '| Theme:', 'honeypress' ); ?> <a href="<?php echo esc_url( __( 'https://spicethemes.com', 'honeypress' ) ); ?>" rel="nofollow"> <?php esc_html_e( 'HoneyPress', 'honeypress' ); ?></a> <?php esc_html_e( 'by SpiceThemes', 'honeypress' );?></p>
+    </div>  
+<?php } ?>
 </footer>
 <?php  
 }

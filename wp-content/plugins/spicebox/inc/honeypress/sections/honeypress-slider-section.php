@@ -9,6 +9,8 @@ if ( ! function_exists( 'spiceb_honeypress_slider' ) ) :
 		$theme = wp_get_theme();
 		if( $theme->name=='HoneyWaves'){
 		$home_slider_image = get_theme_mod('home_slider_image',SPICEB_PLUGIN_URL .'inc/honeypress/images/slider/honeywaves-slider.jpg');
+		}elseif( $theme->name=='HoneyBee'){
+		$home_slider_image = get_theme_mod('home_slider_image',SPICEB_PLUGIN_URL .'inc/honeypress/images/slider/honeybee-slider.jpg');
 		}elseif( $theme->name=='Radix Multipurpose'){
 		$home_slider_image = get_theme_mod('home_slider_image',SPICEB_PLUGIN_URL .'inc/honeypress/images/slider/radix-multipurpose-slider.jpg');
 		}elseif( $theme->name=='Bizhunt'){

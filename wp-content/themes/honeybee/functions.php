@@ -28,7 +28,6 @@ function honeybee_sanitize_text($input) {
 function honeybee_setup() {
     load_theme_textdomain('honeybee', HONEYBEE_CHILD_TEMPLATE_DIR . '/languages');
 
-    require( HONEYBEE_CHILD_TEMPLATE_DIR . '/inc/customizer/footer-options.php');
     require( HONEYBEE_CHILD_TEMPLATE_DIR . '/inc/customizer/customizer_theme_style.php');
     require( HONEYBEE_CHILD_TEMPLATE_DIR . '/functions/widgets/sidebars.php');
     require( HONEYBEE_CHILD_TEMPLATE_DIR . '/functions/widgets/wdl_social_icon.php');
@@ -116,6 +115,27 @@ function honeybee_custom_light() {
     endif;
 }
 
+//Set for old user before 1.3.8
+if (!get_option('honeypress_user_before_1_3_8', false)) {
+    //detect old user and set value
+    $honeybee_service_title=get_theme_mod('home_service_section_title');
+    $honeybee_service_discription=get_theme_mod('home_service_section_discription');
+    $honeybee_blog_title=get_theme_mod('home_news_section_title');
+    $honeybee_blog_discription=get_theme_mod('home_news_section_discription');
+    $honeybee_slider_title=get_theme_mod('home_slider_title');
+    $honeybee_slider_discription=get_theme_mod('home_slider_discription'); 
+    $honeybee_testimonial_title=get_theme_mod('home_testimonial_section_title'); 
+    $honeybee_testimonial__discription=get_theme_mod('home_testimonial_section_discription');
+    $honeybee_footer_credit=get_theme_mod('footer_copyright');
+
+    if ($honeybee_service_title !=null || $honeybee_service_discription !=null || $honeybee_blog_title !=null || $honeybee_blog_discription !=null || $honeybee_slider_title !=null || $honeybee_slider_discription !=null || $honeybee_testimonial_title !=null || $honeybee_testimonial__discription !=null || $honeybee_footer_credit !=null )  {
+        add_option('honeypress_user_before_1_3_8', 'old');
+
+    } else {
+        add_option('honeypress_user_before_1_3_8', 'new');
+    }
+}
+
 function honeybee_footer_section_hook() {
     ?>
     <footer class="site-footer">  
@@ -127,12 +147,18 @@ function honeybee_footer_section_hook() {
             endif;
             ?>  
         </div>
-            <?php if (get_theme_mod('footer_enable', true) == true): ?>
+        <?php
+        $honeybee_user=get_option('honeypress_user_before_1_3_8');
+        if($honeybee_user=='old'){?>
             <div class="site-info text-center">
                 <?php $honeybee_footer_copyright = get_theme_mod('footer_copyright', '<p>' . __('Proudly powered by <a href="https://wordpress.org"> WordPress</a> | Theme: <a href="https://spicethemes.com" rel="nofollow">HoneyBee</a> by SpiceThemes', 'honeybee') . '</p>'); ?>  
             <?php echo wp_kses_post($honeybee_footer_copyright); ?> 
             </div>
-    <?php endif; ?>
+        <?php } else{?>
+            <div class="site-info text-center 2">
+                 <p><?php esc_html_e( 'Proudly powered by', 'honeybee' ); ?> <a href="<?php echo esc_url( __( 'https://wordpress.org', 'honeybee' ) ); ?>"><?php esc_html_e( 'WordPress', 'honeybee' ); ?> </a> <?php esc_html_e( '| Theme:', 'honeybee' ); ?> <a href="<?php echo esc_url( __( 'https://spicethemes.com', 'honeybee' ) ); ?>" rel="nofollow"> <?php esc_html_e( 'HoneyBee', 'honeybee' ); ?></a> <?php esc_html_e( 'by SpiceThemes', 'honeybee' );?></p>
+            </div>
+        <?php } ?>
     </footer>
     <?php
 }
@@ -159,3 +185,11 @@ function honeybee_customizer_styles() { ?>
     <?php
 }
 add_action( 'customize_controls_print_styles', 'honeybee_customizer_styles',11);
+
+//Remove Footer section
+function honeybee_remove_customize_register( $wp_customize ) {
+
+   $wp_customize->remove_section( 'footer_section');
+
+}
+add_action( 'customize_register', 'honeybee_remove_customize_register',11);
